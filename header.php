@@ -10,3 +10,8 @@
 </head>
 
 <body>
+
+  <header>
+    <h1><a href="<?php echo bloginfo('url'); ?>"><?php echo bloginfo('name'); ?></a></h1>
+    <!-- Navigation when we learn how to add the dynamic nav -->
+  </header>
