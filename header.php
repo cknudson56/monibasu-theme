@@ -12,6 +12,18 @@
 <body>
 
   <header>
-    <h1><a href="<?php echo bloginfo('url'); ?>"><?php echo bloginfo('name'); ?></a></h1>
-<!-- Add navigation when we learn how to -->
+    <div class="container">
+      <div class="row">
+        <div class="three columns">
+          <h1><a href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?></a></h1>
+        </div>
+        <div class="nine columns">
+          <?php wp_nav_menu(array(
+            'theme_location' => 'header-menu',
+            'container-class' => 'menu-header'
+            ));
+          ?>
+        </div>
+      </div>
+    </div>
   </header>
