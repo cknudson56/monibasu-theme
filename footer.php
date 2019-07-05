@@ -1,9 +1,5 @@
-<?php wp_footer(); ?>
-
 <footer>
 
-<h2><a href="<?php echo bloginfo('url'); ?>"><?php echo bloginfo('name'); ?></a></h2>
-<h3><?php echo bloginfo('description'); ?></h3>
   <div class="container">
     <div class="row">
       <div class="nine columns">
@@ -27,6 +23,8 @@
   </div>
 
 </footer>
+
+<?php wp_footer(); ?>
 
 </body>
 </html>
