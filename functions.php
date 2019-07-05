@@ -12,12 +12,32 @@ add_action('wp_enqueue_scripts' , 'example_theme_scripts');
 
 //Widgets
 function blank_widgets_init() {
-  //Header widget
+  //Header Widget
   register_sidebar(array(
     'name'          => ('Right Header'),
     'id'            => 'right-header',
     'description'   => 'Right widget area in the header',
     'before_widget' => '<div class="widget-header widget-right">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="widget-title">',
+    'after_title'   => '</h3>'
+  ));
+  //Left Footer Widget
+  register_sidebar(array(
+    'name'          => ('Left Footer'),
+    'id'            => 'left-footer',
+    'description'   => 'Left widget area in the footer',
+    'before_widget' => '<div class="widget-footer widget-left">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="widget-title">',
+    'after_title'   => '</h3>'
+  ));
+  //Right Footer Widget
+  register_sidebar(array(
+    'name'          => ('Right Footer'),
+    'id'            => 'right-footer',
+    'description'   => 'Right widget area in the footer',
+    'before_widget' => '<div class="widget-footer widget-right">',
     'after_widget'  => '</div>',
     'before_title'  => '<h3 class="widget-title">',
     'after_title'   => '</h3>'
