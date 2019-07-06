@@ -21,6 +21,9 @@ Light Grey: #D1D1D1
 header h1, header h2, header h3 {
   font-family: 'Montserrat', sans-serif;
 }
+header h1 {
+  font-weight: 600;
+}
 #menu-header-menu.menu {
   display: flex;
   justify-content: space-around;
@@ -29,6 +32,7 @@ header h1, header h2, header h3 {
 #menu-header-menu li {
   display: inline;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
 }
 #menu-header-menu li a {
   text-decoration: none;
