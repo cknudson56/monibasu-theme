@@ -2,7 +2,7 @@
 
   <div class="container">
     <div class="row">
-      <div class="nine columns">
+      <div class="seven columns">
         <!-- Navigation -->
         <?php wp_nav_menu(array(
           'theme_location' => 'footer-menu',
@@ -10,7 +10,7 @@
           ));
         ?>
       </div>
-      <div class="three columns">
+      <div class="five columns">
         <!-- Social Media Icons -->
         <?php dynamic_sidebar('right-footer'); ?>
       </div>

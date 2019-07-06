@@ -18,6 +18,7 @@ Dark Grey: #707070
 Light Grey: #D1D1D1
 */
 
+/* --- HEADER ---*/
 header h1, header h2, header h3 {
   font-family: 'Montserrat', sans-serif;
 }
@@ -47,4 +48,31 @@ h1 a {
 }
 h1 a:hover {
   color: #707070;
+}
+
+/* --- FOOTER --- */
+footer {
+  background-color: #707070;
+}
+footer h1, footer h2, footer h3, footer h4, footer h5, footer h6 {
+    color: #FFFFFF;
+}
+footer p {
+  color: #D1D1D1;
+}
+#menu-footer-menu.menu {
+  display: flex;
+  justify-content: space-around;
+}
+#menu-footer-menu li {
+  display: inline;
+  font-family: 'Montserrat', sans-serif;
+}
+#menu-footer-menu li a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+#menu-footer-menu li a:hover {
+  color: #B50707;
+  text-decoration: line-through;
 }
