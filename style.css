@@ -32,7 +32,6 @@ header h1 {
 #menu-header-menu li {
   display: inline;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
 }
 #menu-header-menu li a {
   text-decoration: none;
