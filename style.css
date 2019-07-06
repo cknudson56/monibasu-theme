@@ -76,3 +76,23 @@ footer p {
   color: #B50707;
   text-decoration: line-through;
 }
+/* TEMPORARY */ footer h3.widget-title {
+  font-size: 1.7rem;
+  text-align: right;
+}
+footer h4 {
+  font-size: 2rem;
+}
+footer h4 a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+footer h4 a:hover {
+  color: #B50707;
+}
+.bottom-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
