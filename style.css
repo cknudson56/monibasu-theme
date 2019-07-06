@@ -60,9 +60,12 @@ footer h1, footer h2, footer h3, footer h4, footer h5, footer h6 {
 footer p {
   color: #D1D1D1;
 }
+.top-footer-row {
+  padding-top: 20px;
+}
 #menu-footer-menu.menu {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 #menu-footer-menu li {
   display: inline;
@@ -76,8 +79,14 @@ footer p {
   color: #B50707;
   text-decoration: line-through;
 }
+#menu-footer-menu ul {
+  margin-bottom: 0 !important;
+}
 /* TEMPORARY */ footer h3.widget-title {
   font-size: 1.7rem;
+  text-align: right;
+}
+bottom-text p {
   text-align: right;
 }
 footer h4 {
