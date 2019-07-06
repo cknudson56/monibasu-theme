@@ -18,18 +18,30 @@ Dark Grey: #707070
 Light Grey: #D1D1D1
 */
 
+header h1, header h2, header h3 {
+  font-family: 'Montserrat', sans-serif;
+}
 #menu-header-menu.menu {
   display: flex;
   justify-content: space-around;
+  padding-top: 24px;
 }
 #menu-header-menu li {
   display: inline;
+  font-family: 'Montserrat', sans-serif;
 }
 #menu-header-menu li a {
   text-decoration: none;
   color: #707070;
 }
+#menu-header-menu li a:hover {
+  color: #B50707;
+  text-decoration: line-through;
+}
 h1 a {
   color: #B50707;
   text-decoration: none;
+}
+h1 a:hover {
+  color: #707070;
 }
