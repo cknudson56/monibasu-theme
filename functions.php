@@ -52,6 +52,16 @@ function blank_widgets_init() {
     'before_title'  => '<h3 class="widget-title">',
     'after_title'   => '</h3>'
   ));
+  //Contact Page Left Widget
+  register_sidebar(array(
+    'name'          => ('Left Contact Page'),
+    'id'            => 'left-contact-page',
+    'description'   => 'Left widget area in Contact Page',
+    'before_widget' => '<div class="widget-contact widget-left">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="widget-title">',
+    'after_title'   => '</h3>'
+  ));
   //Left Footer Widget
   register_sidebar(array(
     'name'          => ('Left Footer'),
