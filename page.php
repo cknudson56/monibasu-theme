@@ -4,7 +4,7 @@
   <div class="row">
 
     <div class="one-half column">
-        <?php dynamic_sidebar(''); ?>
+        <?php dynamic_sidebar('left-page'); ?>
     </div>
 
     <div class="one-half column">
