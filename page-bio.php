@@ -1,3 +1,4 @@
+<?php /*Template Name: Bio Page Template*/ ?>
 <?php get_header(); ?>
 
 <div class="container">
