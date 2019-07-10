@@ -6,7 +6,7 @@ function example_theme_scripts(){
   //CSS - NOT WORKING!!!
   wp_enqueue_style('main-styles', get_stylesheet_uri());
   //JS
-  wp_enqueue_style('script-name', get_template_directory_uri() . '/js/script.js');
+  //wp_enqueue_style('script-name', get_template_directory_uri() . '/js/script.js');
 }
 add_action('wp_enqueue_scripts' , 'example_theme_scripts');
 
