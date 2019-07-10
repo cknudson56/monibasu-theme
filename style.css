@@ -126,6 +126,6 @@ footer h4 a:hover {
   }
   .norm_row.sfsi_wDiv {
       right: 0;
-      text-align: right;
+      text-align: right !important;
   }
 }
