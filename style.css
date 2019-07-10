@@ -103,7 +103,6 @@ footer p {
 }
 footer h4 {
   font-size: 2rem;
-  margin-bottom: 5px;
 }
 footer h4 a {
   text-decoration: none;
@@ -139,5 +138,12 @@ footer h4 a:hover {
   }
   .bottom-text p {
     text-align: right;
+  }
+}
+
+@media (max-width: 549px) {
+  .bottom-text h4 {
+    margin-bottom: 5px;
+    margin-top: 5px;
   }
 }
