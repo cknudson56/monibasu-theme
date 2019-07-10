@@ -17,7 +17,7 @@
     </div>
 
     <div class="row bottom-text">
-      <h4><a href="<?php echo bloginfo('/'); ?>"><?php echo bloginfo('name'); ?></a></h4>
+      <h4><a href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?></a></h4>
       <p>Site Created by Christie Knudson, Nicole Gunter &amp; Samantha Webb</p>
     </div>
   </div>
