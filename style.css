@@ -74,7 +74,7 @@ footer p {
 }
 #menu-footer-menu.menu {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 #menu-footer-menu li {
   display: inline;
@@ -97,7 +97,7 @@ footer p {
   justify-content: center;
 }
 .norm_row.sfsi_wDiv {
-  text-align: center;
+  text-align: center !important;
 }
 footer h4 {
   font-size: 2rem;
