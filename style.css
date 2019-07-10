@@ -70,7 +70,9 @@ footer p {
 }
 .top-footer-row {
   padding-top: 20px;
-
+}
+.top-footer-row div {
+    height: 35px;
 }
 #menu-footer-menu.menu {
   display: flex;
@@ -101,6 +103,7 @@ footer p {
 }
 footer h4 {
   font-size: 2rem;
+  margin-bottom: 5px;
 }
 footer h4 a {
   text-decoration: none;
@@ -116,6 +119,9 @@ footer h4 a:hover {
   flex-wrap: wrap;
   width: 100%;
 }
+.bottom-text h4, .bottom-text p {
+  text-align: center;
+}
 
 @media (min-width: 550px) {
   #menu-footer-menu.menu {
@@ -127,5 +133,11 @@ footer h4 a:hover {
   .norm_row.sfsi_wDiv {
       right: 0;
       text-align: right !important;
+  }
+  .bottom-text h4 {
+    text-align: left;
+  }
+  .bottom-text p {
+    text-align: right;
   }
 }
