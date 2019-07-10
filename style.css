@@ -18,6 +18,10 @@ Dark Grey: #707070
 Light Grey: #D1D1D1
 */
 
+.container {
+    max-width: 100%;
+}
+
 /* --- HEADER ---*/
 header h1, header h2, header h3 {
   font-family: 'Montserrat', sans-serif;
@@ -62,7 +66,7 @@ footer p {
 }
 .top-footer-row {
   padding-top: 20px;
-  
+
 }
 #menu-footer-menu.menu {
   display: flex;
