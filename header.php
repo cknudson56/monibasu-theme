@@ -15,7 +15,7 @@
     <div class="container">
       <div class="row">
         <div class="five columns">
-          <h1><a href="<?php echo home_url('url'); ?>"><?php bloginfo('name'); ?></a></h1>
+          <h1><a href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?></a></h1>
         </div>
         <div class="seven columns">
           <?php wp_nav_menu(array(
