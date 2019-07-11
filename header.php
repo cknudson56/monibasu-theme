@@ -13,11 +13,11 @@
 
   <header>
     <div class="container">
-      <div class="row">
-        <div id="site-heading" class="five columns">
+      <div class="row header-flex">
+        <div id="site-heading">
           <h1><a href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?></a></h1>
         </div>
-        <div class="seven columns">
+        <div id="site-nav">
           <?php wp_nav_menu(array(
             'theme_location' => 'header-menu',
             'container-class' => 'menu-header'
