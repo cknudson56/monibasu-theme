@@ -140,12 +140,18 @@ footer h4 a:hover {
 .bottom-text h4, .bottom-text p {
   text-align: center;
 }
+/* --- EBOOK Page --- */
+.ebook-img {
+  float: left;
+  margin-right: 20px;
+}
 
 /* --- Single.php --- */
 .post-feature img {
   max-width: 100%;
   height: auto;
 }
+
 
 
 
