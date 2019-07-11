@@ -141,6 +141,11 @@ footer h4 a:hover {
   text-align: center;
 }
 
+/* --- Single.php --- */
+.post-feature img {
+  max-width: 100%;
+  height: auto;
+}
 
 
 

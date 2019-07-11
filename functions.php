@@ -94,5 +94,9 @@ function custom_menus(){
 }
 add_action('init', 'custom_menus');
 
+//Adds featured imgs to posts
+  add_theme_support('post-thumbnails');
+
+
 
  ?>
