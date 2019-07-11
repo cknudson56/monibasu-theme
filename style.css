@@ -121,7 +121,6 @@ footer p {
 }
 footer h4 {
   font-size: 2rem;
-  margin-bottom: 5px;
 }
 footer h4 a {
   text-decoration: none;
@@ -132,7 +131,7 @@ footer h4 a:hover {
 }
 .bottom-text {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: baseline;
   flex-wrap: wrap;
   width: 100%;
@@ -155,12 +154,17 @@ footer h4 a:hover {
       right: 0;
       text-align: right !important;
   }
+  .bottom-text {
+    justify-content: space-between;
+  }
   .bottom-text h4 {
     text-align: left;
   }
   .bottom-text p {
     text-align: right;
   }
+  footer .container:after, .row:after, .u-cf {
+    content: none;
 }
 
 @media (max-width: 549px) {
