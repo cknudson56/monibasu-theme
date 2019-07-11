@@ -52,6 +52,26 @@ function blank_widgets_init() {
     'before_title'  => '<h3 class="widget-title">',
     'after_title'   => '</h3>'
   ));
+  //Blogs Landing Page Left Widget
+  register_sidebar(array(
+    'name'          => ('Left Blogs Landing'),
+    'id'            => 'left-blogs',
+    'description'   => 'Left widget area in Blogs Landing Page',
+    'before_widget' => '<div class="widget-blogs widget-left">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="widget-title">',
+    'after_title'   => '</h3>'
+  ));
+  //Home Page Top Right Widget
+  register_sidebar(array(
+    'name'          => ('Right Blogs Landing'),
+    'id'            => 'right-blogs',
+    'description'   => 'Right widget area in Blogs Landing Page',
+    'before_widget' => '<div class="widget-blogs widget-left">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="widget-title">',
+    'after_title'   => '</h3>'
+  ));
   //Contact Page Left Widget
   register_sidebar(array(
     'name'          => ('Left Contact Page'),

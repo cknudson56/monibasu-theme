@@ -6,14 +6,14 @@
   <div class="row">
     <h2><?php the_title(); ?></h2>
   </div>
-  
+
   <div class="row">
     <div class="one-half column">
-        <?php dynamic_sidebar(''); ?>
+        <?php dynamic_sidebar('left-blogs'); ?>
     </div>
 
     <div class="one-half column">
-      <?php dynamic_sidebar(''); ?>
+      <?php dynamic_sidebar('right-blogs'); ?>
     </div>
   </div>
 
