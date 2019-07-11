@@ -14,7 +14,7 @@
   <header>
     <div class="container">
       <div class="row">
-        <div id="site-heading" class="four columns">
+        <div id="site-heading" class="five columns">
           <h1><a href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?></a></h1>
         </div>
         <div class="seven columns">
