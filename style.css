@@ -64,6 +64,13 @@ h1 a:hover {
 .header-flex.container:after, .header-flex.row:after, .header-flex.u-cf {
   content: none;
 }
+.mega-menu-toggle {
+    margin-top: 15px;
+}
+#mega-menu-wrap-header-menu .mega-menu-toggle .mega-toggle-blocks-right .mega-toggle-block {
+    margin-right: 5px;
+    margin-left: 5px;
+}
 
 /* --- FOOTER --- */
 footer {
@@ -156,6 +163,11 @@ footer h4 a:hover {
   .bottom-text h4 {
     margin-bottom: 5px;
     margin-top: 5px;
+  }
+}
+@media only screen and (max-width: 600px){
+#mega-menu-wrap-header-menu #mega-menu-header-menu > li.mega-menu-flyout ul.mega-sub-menu {
+    padding: 0 0 0 20px;
   }
 }
 @media (min-width: 600px) and (max-width: 900px) {
