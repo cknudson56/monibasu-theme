@@ -160,6 +160,6 @@ footer h4 a:hover {
 }
 @media (min-width: 600px) and (max-width: 900) {
   .header-flex {
-    justify-content: center;
+    justify-content: center !important;
   }
 }
