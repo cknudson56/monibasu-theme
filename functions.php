@@ -22,6 +22,46 @@ function blank_widgets_init() {
     'before_title'  => '<h3 class="widget-title">',
     'after_title'   => '</h3>'
   ));
+  //Home Page Top Left Widget
+  register_sidebar(array(
+    'name'          => ('Top Left Home'),
+    'id'            => 'top-left-home',
+    'description'   => 'Top Left widget area in Home Page',
+    'before_widget' => '<div class="widget-home widget-top-left">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="widget-title">',
+    'after_title'   => '</h3>'
+  ));
+  //Home Page Top Right Widget
+  register_sidebar(array(
+    'name'          => ('Top Right Home'),
+    'id'            => 'top-right-home',
+    'description'   => 'Top Right widget area in Home Page',
+    'before_widget' => '<div class="widget-home widget-top-right">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="widget-title">',
+    'after_title'   => '</h3>'
+  ));
+  //Bio Page Left Widget
+  register_sidebar(array(
+    'name'          => ('Left Bio Page'),
+    'id'            => 'left-bio-page',
+    'description'   => 'Left widget area in Bio Page',
+    'before_widget' => '<div class="widget-bio widget-left">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="widget-title">',
+    'after_title'   => '</h3>'
+  ));
+  //Contact Page Left Widget
+  register_sidebar(array(
+    'name'          => ('Left Contact Page'),
+    'id'            => 'left-contact-page',
+    'description'   => 'Left widget area in Contact Page',
+    'before_widget' => '<div class="widget-contact widget-left">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="widget-title">',
+    'after_title'   => '</h3>'
+  ));
   //Left Footer Widget
   register_sidebar(array(
     'name'          => ('Left Footer'),
