@@ -62,12 +62,42 @@ function blank_widgets_init() {
     'before_title'  => '<h3 class="widget-title">',
     'after_title'   => '</h3>'
   ));
-  //Home Page Top Right Widget
+  //Blogs Landing Page Right Widget
   register_sidebar(array(
     'name'          => ('Right Blogs Landing'),
     'id'            => 'right-blogs',
     'description'   => 'Right widget area in Blogs Landing Page',
     'before_widget' => '<div class="widget-blogs widget-left">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="widget-title">',
+    'after_title'   => '</h3>'
+  ));
+  //Articles Page Left Widget
+  register_sidebar(array(
+    'name'          => ('Left Articles'),
+    'id'            => 'left-art',
+    'description'   => 'Left widget area in Articles Page',
+    'before_widget' => '<div class="widget-art widget-left">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="widget-title">',
+    'after_title'   => '</h3>'
+  ));
+  //Articles Page Middle Widget
+  register_sidebar(array(
+    'name'          => ('Middle Articles'),
+    'id'            => 'middle-art',
+    'description'   => 'Middle widget area in Articles Page',
+    'before_widget' => '<div class="widget-art widget-middle">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="widget-title">',
+    'after_title'   => '</h3>'
+  ));
+  //Articles Page Right Widget
+  register_sidebar(array(
+    'name'          => ('Right Articles'),
+    'id'            => 'right-art',
+    'description'   => 'Right widget area in Articles Page',
+    'before_widget' => '<div class="widget-art widget-right">',
     'after_widget'  => '</div>',
     'before_title'  => '<h3 class="widget-title">',
     'after_title'   => '</h3>'
