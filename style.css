@@ -211,6 +211,12 @@ footer h4 a:hover {
     padding: 0 0 0 20px;
   }
 }
+@media (min-width: 550px) and (max-width: 900px) {
+  .dual-columns {
+    width: 100%;
+    margin-left: 0%;
+  }
+}
 @media (min-width: 600px) and (max-width: 900px) {
   .header-flex {
     justify-content: center;
