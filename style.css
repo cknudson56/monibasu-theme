@@ -31,6 +31,9 @@ p {
     font-family: 'Montserrat',sans-serif;
     color: #707070;
 }
+.content-margin {
+    margin-bottom: 175px;
+}
 
 /* --- HEADER ---*/
 header h1, header h2, header h3 {
