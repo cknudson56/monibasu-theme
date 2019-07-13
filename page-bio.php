@@ -1,13 +1,13 @@
 <?php /*Template Name: Bio Page Template*/ ?>
 <?php get_header(); ?>
 
-<div class="container">
+<div class="container content-margin">
 
   <div class="row">
     <h2><?php the_title(); ?></h2>
   </div>
 
-  <div class="row content-margin">
+  <div class="row">
     <div class="one-half column">
         <?php dynamic_sidebar('left-bio-page'); ?>
     </div>

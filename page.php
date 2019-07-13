@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
-<div class="container">
-  <div class="row content-margin">
+<div class="container content-margin">
+  <div class="row">
       <?php
         if(have_posts()){
           while(have_posts()){
