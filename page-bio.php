@@ -8,7 +8,7 @@
   </div>
 
   <div class="row">
-    <div class="one-half column">
+    <div class="one-half column dual-columns">
         <?php dynamic_sidebar('left-bio-page'); ?>
     </div>
 
