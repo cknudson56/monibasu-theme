@@ -135,6 +135,8 @@ footer p {
 footer h4 {
   font-size: 2rem;
   padding-right: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
 }
 footer h4 a {
   text-decoration: none;
