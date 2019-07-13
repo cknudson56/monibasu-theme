@@ -11,10 +11,10 @@
 
       <div class="row">
         <div class="three columns">
-          <p>Newsfeed 1</p>
+          <?php dynamic_sidebar('left-social'); ?>
         </div>
         <div class="three columns">
-          <p>Newsfeed 2</p>
+          <?php dynamic_sidebar('right-social'); ?>
         </div>
       </div>
 

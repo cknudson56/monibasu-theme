@@ -42,6 +42,26 @@ function blank_widgets_init() {
     'before_title'  => '<h3 class="widget-title">',
     'after_title'   => '</h3>'
   ));
+  //Home Page Left Social Widget
+  register_sidebar(array(
+    'name'          => ('Left Social'),
+    'id'            => 'left-social',
+    'description'   => 'Left social widget area in Home Page',
+    'before_widget' => '<div class="widget-social widget-left">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="widget-title">',
+    'after_title'   => '</h3>'
+  ));
+  //Home Page Right Social Widget
+  register_sidebar(array(
+    'name'          => ('Right Social'),
+    'id'            => 'right-social',
+    'description'   => 'Right social widget area in Home Page',
+    'before_widget' => '<div class="widget-social widget-right">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="widget-title">',
+    'after_title'   => '</h3>'
+  ));
   //Bio Page Left Widget
   register_sidebar(array(
     'name'          => ('Left Bio Page'),
