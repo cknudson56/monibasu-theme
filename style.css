@@ -27,6 +27,9 @@ h2 {
     font-family: 'Playfair Display',serif;
     color: #8A0707;
 }
+h3, h4, h5, h6 {
+  font-family: 'Playfair Display',serif;
+}
 p {
     font-family: 'Montserrat',sans-serif;
     color: #707070;
