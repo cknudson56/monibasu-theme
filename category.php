@@ -4,6 +4,7 @@
   <div class="row">
     <div class="twelve columns">
       <h2><?php single_cat_title(); ?></h2>
+      <p><?php echo category_description(); ?></p>
       <?php
         if(have_posts()){
           while(have_posts()){
