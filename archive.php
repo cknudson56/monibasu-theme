@@ -10,7 +10,7 @@
             <div class="twelve columns">
               <?php the_post_thumbnail('medium'); ?>
               <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-              <p><?php echo "Posted: " . the_time('F j, Y'); ?></p>
+              <?php publish_date(); ?>
               <?php the_excerpt(); ?>
               </p><a href="<?php the_permalink(); ?>">Read More...</a></p>
             </div>

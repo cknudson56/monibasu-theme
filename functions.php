@@ -177,6 +177,14 @@ add_action('init', 'custom_menus');
 //Adds featured imgs to posts
   add_theme_support('post-thumbnails');
 
+//Date Archive Function
+function publish_date() {
+  $archive_year = get_the_time('Y');
+  $archive_month = get_the_time('F');
+  $archive_day = get_the_time('j');
+?>
+  <p>Posted: <a href="<?php echo get_day_link($archive_year, $archive_month, $archive_day); ?>"><?php echo get_the_date(); ?></a><p>
+<?php
+}
 
-
- ?>
+?>
