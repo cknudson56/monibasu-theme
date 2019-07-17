@@ -10,17 +10,19 @@
       </div>
 
       <div class="row">
-        <div class="three columns">
-          <?php dynamic_sidebar('left-social'); ?>
-        </div>
-        <div class="three columns">
-          <?php dynamic_sidebar('right-social'); ?>
-        </div>
         <!--
-        <div>
-          <//?php dynamic_sidebar('main-social'); ?>
+        <div class="three columns">
+          <//?php dynamic_sidebar('left-social'); ?>
+        </div>
+        <div class="three columns">
+          <//?php dynamic_sidebar('right-social'); ?>
         </div>
         -->
+
+        <div>
+          <?php dynamic_sidebar('main-social'); ?>
+        </div>
+
       </div>
 
     </div>
