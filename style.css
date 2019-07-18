@@ -48,6 +48,19 @@ p {
   float: right;
   margin-left: 20px;
 }
+button {
+  background: #D1D1D1;
+}
+button a {
+  color: #8A0707;
+  text-decoration: none;
+}
+button:hover {
+  background: #D1D1D1;
+}
+button a:hover {
+  color: #FFFFFF;
+}
 
 /* --- HEADER ---*/
 /*
