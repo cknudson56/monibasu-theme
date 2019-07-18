@@ -176,6 +176,17 @@ footer h4 a:hover {
 .bottom-text h4, .bottom-text p {
   text-align: center;
 }
+
+/* --- Blogs Landing Page --- */
+#blogs-page h3 {
+  text-align: center;
+}
+#blogs-page img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* --- EBOOK Page --- */
 #page h3 {
     text-align: center;
@@ -246,6 +257,11 @@ textarea.wpcf7-form-control.wpcf7-textarea {
 @media only screen and (max-width: 600px){
 #mega-menu-wrap-header-menu #mega-menu-header-menu > li.mega-menu-flyout ul.mega-sub-menu {
     padding: 0 0 0 20px;
+  }
+}
+@media (min-width:550px) and (max-width: 759px) {
+  #blogs-page.one-half.column {
+    width: 100% !important;
   }
 }
 @media (min-width: 550px) and (max-width: 899px) {
