@@ -55,11 +55,8 @@ button a {
   color: #8A0707;
   text-decoration: none;
 }
-button:hover {
-  background: #D1D1D1;
-}
 button a:hover {
-  color: #FFFFFF;
+  color: #B50707;
 }
 
 /* --- HEADER ---*/
