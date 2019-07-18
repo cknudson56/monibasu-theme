@@ -182,6 +182,18 @@ footer h4 a:hover {
     padding-bottom: 15px;
 }
 
+/* --- Contact Page --- */
+#contact-page li {
+    color: #707070;
+    font-family: 'Montserrat', sans-serif;
+    list-style-type: disc;
+    font-size: 2rem;
+}
+input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+    width: 100%;
+    max-width: 300px;
+}
+
 /* --- Single.php --- */
 .post-feature img {
   max-width: 100%;
