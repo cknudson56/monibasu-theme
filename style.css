@@ -189,7 +189,11 @@ footer h4 a:hover {
     list-style-type: disc;
     font-size: 2rem;
 }
-input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+input.wpcf7-form-control.wpcf7-text {
+    width: 100%;
+    max-width: 300px;
+}
+textarea.wpcf7-form-control.wpcf7-textarea {
     width: 100%;
     max-width: 300px;
 }
