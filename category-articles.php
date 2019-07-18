@@ -8,7 +8,7 @@
     </div>
   </div>
   <div class="row">
-    <div class="nine columns">
+    <div class="twelve columns">
       <?php
         if(have_posts()){
           while(have_posts()){
@@ -24,10 +24,6 @@
           }
         }
       ?>
-    </div>
-
-    <div class="three columns">
-      <?php get_sidebar(); ?>
     </div>
   </div>
 
