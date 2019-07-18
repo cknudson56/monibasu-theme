@@ -37,6 +37,12 @@ p {
 .content-margin {
     margin-bottom: 175px;
 }
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
 
 /* --- HEADER ---*/
 header h1, header h2, header h3 {
