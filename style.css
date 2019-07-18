@@ -21,14 +21,17 @@ Light Grey: #D1D1D1
 .container {
     max-width: 100%;
 }
+header h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display',serif;
+  color: #B50707;
+}
 h2 {
     text-align: center;
     padding: 40px 0;
-    font-family: 'Playfair Display',serif;
-    color: #8A0707;
-}
-h3, h4, h5, h6 {
-  font-family: 'Playfair Display',serif;
 }
 p {
     font-family: 'Montserrat',sans-serif;
@@ -45,12 +48,6 @@ p {
 }
 
 /* --- HEADER ---*/
-header h1, header h2, header h3 {
-  font-family: 'Montserrat', sans-serif;
-}
-header h1 {
-  font-weight: 600;
-}
 /*
 #menu-header-menu.menu {
   display: flex;
