@@ -1,7 +1,7 @@
 <?php /*Template Name: 404 Page*/?>
 <?php get_header(); ?>
 
-<div class="container content-margin">
+<div id="four-o-four" class="container content-margin">
 <div class="row">
   <div class="twelve columns not-found">
     <h2>Page Not Found</h2>

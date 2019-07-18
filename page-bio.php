@@ -1,7 +1,7 @@
 <?php /*Template Name: Bio Page Template*/ ?>
 <?php get_header(); ?>
 
-<div class="container content-margin">
+<div id="bio-page" class="container content-margin">
 
   <div class="row">
     <h2><?php the_title(); ?></h2>

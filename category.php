@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="container content-margin">
+<div id="category-page" class="container content-margin">
   <div class="row">
     <div class="twelve columns">
       <h2><?php single_cat_title(); ?></h2>
