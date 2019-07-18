@@ -2,7 +2,7 @@
 
 <div class="container content-margin">
   <div class="row">
-    <div class="twelve columns">
+    <div class="nine columns">
       <h2><?php single_cat_title(); ?></h2>
       <p><?php echo category_description(); ?></p>
       <?php
@@ -19,6 +19,11 @@
           <?php
         }
       } ?>
+    </div>
+
+    <div class="three columns">
+      <?php get_sidebar(); ?>
+
     </div>
   </div>
 </div>
