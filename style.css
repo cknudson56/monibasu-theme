@@ -194,7 +194,7 @@ input.wpcf7-form-control.wpcf7-text {
     max-width: 300px;
 }
 textarea.wpcf7-form-control.wpcf7-textarea {
-    width: 100%;
+    width: 100% !important;
     max-width: 300px;
 }
 
