@@ -102,6 +102,16 @@ function blank_widgets_init() {
     'before_title'  => '<h3 class="widget-title">',
     'after_title'   => '</h3>'
   ));
+  //Sidebar Widget
+  register_sidebar(array(
+    'name'          => ('Sidebar'),
+    'id'            => 'sidebar',
+    'description'   => 'Sidebar widget area',
+    'before_widget' => '<div class="widget-sidebar">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="widget-title">',
+    'after_title'   => '</h3>'
+  ));
   //Articles Page Left Widget
   register_sidebar(array(
     'name'          => ('Left Articles'),
