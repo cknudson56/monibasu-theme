@@ -22,6 +22,7 @@
           }
         }
       ?>
+      <?php dynamic_sidebar('right-contact-page'); ?>
     </div>
   </div>
 
