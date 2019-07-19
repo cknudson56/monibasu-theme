@@ -259,7 +259,7 @@ textarea.wpcf7-form-control.wpcf7-textarea {
     padding: 0 0 0 20px;
   }
 }
-@media (min-width:550px) and (max-width: 759px) {
+@media (min-width: 550px) and (max-width: 759px) {
   #blogs-page.one-half.column {
     width: 100% !important;
   }
