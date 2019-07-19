@@ -227,6 +227,13 @@ textarea.wpcf7-form-control.wpcf7-textarea {
 #category-page a:hover {
     color: #D1D1D1;
 }
+#category-page.sidebar-inline {
+    display: flex;
+    justify-content: space-between;
+}
+#category-page h3.widget-title {
+    display: none;
+}
 
 /* --- Single.php --- */
 .post-feature img {

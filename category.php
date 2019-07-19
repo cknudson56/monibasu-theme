@@ -8,7 +8,7 @@
     </div>
   </div>
   <div class="row">
-    <div class="twelve columns">
+    <div class="sidebar-inline twelve columns">
       <?php get_sidebar(); ?>
     </div>
   </div>
