@@ -242,7 +242,7 @@ textarea.wpcf7-form-control.wpcf7-textarea {
 }
 .category-flex {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
 }
 .category-post {
@@ -289,39 +289,49 @@ textarea.wpcf7-form-control.wpcf7-textarea {
       margin-right: 1% !important;
     }
 }
+
 @media (min-width: 800px) {
   .category-post {
     width: 50%;
   }
+  .category-flex {
+    justify-content: space-between;
+  }
 }
+
 @media (min-width: 900px) {
   .category-post {
     width: 60%;
   }
 }
+
 @media (max-width: 549px) {
   .bottom-text h4 {
     margin-bottom: 5px;
     margin-top: 5px;
   }
 }
+
 @media only screen and (max-width: 600px){
 #mega-menu-wrap-header-menu #mega-menu-header-menu > li.mega-menu-flyout ul.mega-sub-menu {
     padding: 0 0 0 20px;
   }
 }
+
 /*NOT WORKING!!!!!
 @media (min-width: 550px) and (max-width: 759px) {
   #blogs-page.one-half.column {
     width: 100% !important;
   }
 }*/
+
 @media (min-width: 550px) and (max-width: 899px) {
   .dual-columns {
     width: 100% !important;
     margin-left: 0%;
   }
 }
+
 @media (min-width: 600px) and (max-width: 899px) {
   .header-flex {
     justify-content: center;
