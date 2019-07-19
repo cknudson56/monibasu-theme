@@ -238,7 +238,7 @@ textarea.wpcf7-form-control.wpcf7-textarea {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    padding-top: 15px;
+    padding: 15px 0;
 }
 .category-flex {
   display: flex;
@@ -292,7 +292,7 @@ textarea.wpcf7-form-control.wpcf7-textarea {
 
 @media (min-width: 800px) {
   .category-post {
-    width: 50%;
+    width: 48%;
   }
   .category-flex {
     justify-content: space-between;
@@ -301,7 +301,7 @@ textarea.wpcf7-form-control.wpcf7-textarea {
 
 @media (min-width: 900px) {
   .category-post {
-    width: 60%;
+    width: 58%;
   }
 }
 
