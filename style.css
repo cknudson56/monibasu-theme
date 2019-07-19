@@ -186,7 +186,7 @@ footer h4 a:hover {
   margin-left: auto;
   margin-right: auto;
 }
-#blogs-page p {
+#blogs-page.widget-blogs p {
   padding: 0 40px;
 }
 
