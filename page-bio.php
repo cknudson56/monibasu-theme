@@ -7,7 +7,7 @@
     <h2><?php the_title(); ?></h2>
   </div>
 
-  <div class="row">
+  <div class="row bio-flex">
     <div class="one-half column dual-columns">
         <?php dynamic_sidebar('left-bio-page'); ?>
     </div>

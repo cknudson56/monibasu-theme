@@ -177,6 +177,12 @@ footer h4 a:hover {
   text-align: center;
 }
 
+/* --- Bio Page --- */
+.bio-flex {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
 /* --- Blogs Landing Page --- */
 #blogs-page h3 {
   text-align: center;
