@@ -4,7 +4,7 @@
   <div class="row">
     <div class="twelve columns">
       <h2><?php single_cat_title(); ?></h2>
-      <p><?php echo category_description(); ?></p>
+      <p class="cat-description"><?php echo category_description(); ?></p>
     </div>
   </div>
   <div class="row">

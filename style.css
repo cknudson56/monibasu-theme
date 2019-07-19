@@ -220,6 +220,13 @@ textarea.wpcf7-form-control.wpcf7-textarea {
 }
 
 /* --- Category Pages --- */
+#category-page h2 {
+  padding-bottom: 10px;
+}
+.cat-description {
+  text-align: center;
+  padding-bottom: 20px;
+}
 #category-page a {
     text-decoration: none;
     color: #707070;
