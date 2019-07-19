@@ -22,7 +22,7 @@
               <div class="">
                 <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('medium'); ?></a>
               </div>
-              <div class="">
+              <div class="category-post">
                 <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                 <?php publish_date(); ?>
                 <?php the_excerpt(); ?>
