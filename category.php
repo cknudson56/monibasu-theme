@@ -19,10 +19,10 @@
           while(have_posts()){
             the_post();?>
             <div class="row">
-              <div class="three columns">
+              <div class="five columns">
                 <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('medium'); ?></a>
               </div>
-              <div class="nine columns">
+              <div class="seven columns">
                 <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                 <?php publish_date(); ?>
                 <?php the_excerpt(); ?>
