@@ -271,7 +271,7 @@ textarea.wpcf7-form-control.wpcf7-textarea {
   height: auto;
 }
 #single-page.who-when p {
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
 }
 
 
