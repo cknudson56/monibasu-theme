@@ -275,6 +275,11 @@ textarea.wpcf7-form-control.wpcf7-textarea {
   footer .container:after, .row:after, .u-cf {
     content: none;
 }
+  #category-page  .column, .columns {
+      margin-left: 1% !important;
+      margin-right: 1% !important;
+    }
+}
 @media (max-width: 549px) {
   .bottom-text h4 {
     margin-bottom: 5px;
