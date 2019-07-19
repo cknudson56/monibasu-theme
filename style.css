@@ -186,8 +186,8 @@ footer h4 a:hover {
   margin-left: auto;
   margin-right: auto;
 }
-#blogs-page.widget-blogs p {
-  padding: 0 40px;
+#blogs-page.widget-blogs.textwidget p {
+  padding: 0 40px !important;
 }
 
 /* --- EBOOK Page --- */
@@ -250,7 +250,11 @@ textarea.wpcf7-form-control.wpcf7-textarea {
   footer .container:after, .row:after, .u-cf {
     content: none;
 }
-
+@media (min-width: 550px) /*and (max-width: 759px)*/ {
+  #blogs-page.one-half.column {
+    width: 100% !important;
+  }
+}
 @media (max-width: 549px) {
   .bottom-text h4 {
     margin-bottom: 5px;
@@ -262,11 +266,7 @@ textarea.wpcf7-form-control.wpcf7-textarea {
     padding: 0 0 0 20px;
   }
 }
-@media (min-width: 550px) and (max-width: 759px) {
-  #blogs-page.one-half.column {
-    width: 100% !important;
-  }
-}
+
 @media (min-width: 550px) and (max-width: 899px) {
   .dual-columns {
     width: 100% !important;
