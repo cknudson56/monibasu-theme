@@ -219,6 +219,15 @@ textarea.wpcf7-form-control.wpcf7-textarea {
     max-width: 500px;
 }
 
+/* --- Category Pages --- */
+#category-page a {
+    text-decoration: none;
+    color: #707070;
+}
+#category-page a:hover {
+    color: #D1D1D1;
+}
+
 /* --- Single.php --- */
 .post-feature img {
   max-width: 100%;
@@ -263,12 +272,12 @@ textarea.wpcf7-form-control.wpcf7-textarea {
     padding: 0 0 0 20px;
   }
 }
-/*NOT WORKING!!!!!*/
+/*NOT WORKING!!!!!
 @media (min-width: 550px) and (max-width: 759px) {
   #blogs-page.one-half.column {
     width: 100% !important;
   }
-}
+}*/
 @media (min-width: 550px) and (max-width: 899px) {
   .dual-columns {
     width: 100% !important;
