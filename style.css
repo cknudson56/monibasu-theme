@@ -234,6 +234,11 @@ textarea.wpcf7-form-control.wpcf7-textarea {
 #category-page h3.widget-title {
     display: none;
 }
+#category-page img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 
 /* --- Single.php --- */
 .post-feature img {
