@@ -270,7 +270,7 @@ textarea.wpcf7-form-control.wpcf7-textarea {
   max-width: 100%;
   height: auto;
 }
-#single-page.who-when p {
+.who-when p {
   margin-bottom: 0 !important;
 }
 
