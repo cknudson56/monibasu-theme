@@ -18,6 +18,7 @@
         if(have_posts()){
           while(have_posts()){
             the_post();?>
+            <div class="row">
               <div class="three columns">
                 <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('medium'); ?></a>
               </div>
@@ -27,6 +28,7 @@
                 <?php the_excerpt(); ?>
                 </p><a href="<?php the_permalink(); ?>">Read More...</a></p>
               </div>
+            </div>
             <?php
           }
         }
