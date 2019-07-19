@@ -261,6 +261,9 @@ textarea.wpcf7-form-control.wpcf7-textarea {
 .category-post {
   width: 100%;
 }
+.category-post h3, #articles-page h3 {
+  font-size: 3rem;
+}
 
 /* --- Single.php --- */
 .post-feature img {
