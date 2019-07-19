@@ -228,11 +228,11 @@ textarea.wpcf7-form-control.wpcf7-textarea {
   text-align: center;
   padding-bottom: 20px;
 }
-#category-page a, #articles-page a {
+#category-page a, #articles-page a, #archives-page a, #date-page a {
     text-decoration: none;
     color: #707070;
 }
-#category-page a:hover, #articles-page a:hover {
+#category-page a:hover, #articles-page a:hover, #archives-page a:hover, #date-page a:hover {
     color: #D1D1D1;
 }
 .sidebar-inline {
