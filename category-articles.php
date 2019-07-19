@@ -2,9 +2,9 @@
 
 <div id="articles-page" class="container content-margin">
   <div class="row">
-    <div class="twelve columns">
+    <div class="twelve columns cat-description">
       <h2><?php single_cat_title(); ?></h2>
-      <p><?php echo category_description(); ?></p>
+      <?php echo category_description(); ?>
     </div>
   </div>
   <div class="row">
@@ -13,7 +13,7 @@
         if(have_posts()){
           while(have_posts()){
             the_post();?>
-              <div class="twelve columns">
+              <div class="twelve columns category-border">
               <?php the_post_thumbnail('medium'); ?>
               <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
               <?php publish_date(); ?>

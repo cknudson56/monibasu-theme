@@ -252,6 +252,8 @@ textarea.wpcf7-form-control.wpcf7-textarea {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+.category-border {
   border-bottom: 1px solid;
   padding-top: 30px;
   padding-bottom: 15px;
