@@ -9,7 +9,15 @@
         <?php the_post_thumbnail(); ?>
       </div>
       <h2 class="post-title"><?php the_title(); ?></h2>
-      <p><?php echo "Posted: " . get_the_date(); ?></p>
+      <div class="row">
+        <div class="six columns">
+          <p><?php echo "Written by: " . get_the_author(); ?></p>
+          <p><?php echo "Posted: " . get_the_date(); ?></p>
+        </div>
+        <div class="six columns">
+          <?php dynamic_sidebar('share-social'); ?>
+        </div>
+      </div>
       <?php the_content(); ?>
       <?php
     }

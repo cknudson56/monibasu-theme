@@ -162,6 +162,16 @@ function blank_widgets_init() {
     'before_title'  => '<h3 class="widget-title">',
     'after_title'   => '</h3>'
   ));
+  //Single Social Widget
+  register_sidebar(array(
+    'name'          => ('Share Social'),
+    'id'            => 'share-social',
+    'description'   => 'Share social widget area in Single Page',
+    'before_widget' => '<div class="widget-social widget-single">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="widget-title">',
+    'after_title'   => '</h3>'
+  ));
   //Left Footer Widget
   register_sidebar(array(
     'name'          => ('Left Footer'),
