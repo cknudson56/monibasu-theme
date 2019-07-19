@@ -18,11 +18,11 @@
         if(have_posts()){
           while(have_posts()){
             the_post();?>
-            <div class="row">
-              <div class="five columns">
+            <div class="row category-flex">
+              <div class="">
                 <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('medium'); ?></a>
               </div>
-              <div class="seven columns">
+              <div class="">
                 <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                 <?php publish_date(); ?>
                 <?php the_excerpt(); ?>

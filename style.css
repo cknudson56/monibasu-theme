@@ -238,6 +238,12 @@ textarea.wpcf7-form-control.wpcf7-textarea {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    padding-top: 15px;
+}
+.category-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 /* --- Single.php --- */
