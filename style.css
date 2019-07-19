@@ -206,6 +206,7 @@ footer h4 a:hover {
     font-family: 'Montserrat', sans-serif;
     list-style-type: disc;
     font-size: 2rem;
+    margin-bottom: 0 !important;
 }
 .widget-contact.widget-right {
     padding-top: 20px;
@@ -218,12 +219,16 @@ textarea.wpcf7-form-control.wpcf7-textarea {
     width: 100% !important;
     max-width: 500px;
 }
+div.wpcf7 p {
+  margin-bottom: 0 !important;
+}
 .contact-flex {
   display: flex;
   flex-wrap: wrap-reverse;
 }
 .left-contact-column {
-  align-items: flex-end !important;
+  display: flex;
+  align-items: flex-end;
 }
 .content-margin-contact {
   margin-bottom: 100px !important;
