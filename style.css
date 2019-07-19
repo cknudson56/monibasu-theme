@@ -223,10 +223,10 @@ textarea.wpcf7-form-control.wpcf7-textarea {
   flex-wrap: wrap-reverse;
 }
 .left-contact-column {
-  align-items: flex-end;
+  align-items: flex-end !important;
 }
 .content-margin-contact {
-  margin-bottom: 100px;
+  margin-bottom: 100px !important;
 }
 .right-contact-column {
   padding-bottom: 25px;
