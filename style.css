@@ -218,6 +218,20 @@ textarea.wpcf7-form-control.wpcf7-textarea {
     width: 100% !important;
     max-width: 500px;
 }
+.contact-flex {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+.left-contact-column {
+  align-items: flex-end;
+}
+.content-margin-contact {
+  margin-bottom: 100px;
+}
+.right-contact-column {
+  padding-bottom: 25px;
+}
+
 
 /* --- Category Pages --- */
 #category-page h2, #articles-page h2 {
