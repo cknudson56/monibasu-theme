@@ -249,6 +249,9 @@ textarea.wpcf7-form-control.wpcf7-textarea {
 
 
 
+
+
+
 @media (min-width: 550px) {
   #menu-footer-menu.menu {
     justify-content: flex-start;
@@ -272,7 +275,6 @@ textarea.wpcf7-form-control.wpcf7-textarea {
   footer .container:after, .row:after, .u-cf {
     content: none;
 }
-
 @media (max-width: 549px) {
   .bottom-text h4 {
     margin-bottom: 5px;
