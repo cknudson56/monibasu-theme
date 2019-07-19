@@ -230,6 +230,9 @@ div.wpcf7 p {
   display: flex;
   align-items: flex-end;
 }
+.left-contact-column img {
+  margin-bottom: -3px;
+}
 .content-margin-contact {
   margin-bottom: 100px !important;
 }
