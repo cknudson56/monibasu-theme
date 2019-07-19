@@ -19,7 +19,7 @@
           while(have_posts()){
             the_post();?>
               <div class="six columns">
-              <?php the_post_thumbnail('medium'); ?>
+              <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('medium'); ?></a>
               <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
               <?php publish_date(); ?>
               <?php the_excerpt(); ?>
