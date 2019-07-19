@@ -13,7 +13,9 @@
         <p><?php echo "Written by: " . get_the_author(); ?></p>
         <p><?php echo "Posted: " . get_the_date(); ?></p>
       </div>
-      <?php the_content(); ?>
+      <div class="post-content">
+        <?php the_content(); ?>
+      </div>
       <?php
     }
   }
