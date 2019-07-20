@@ -361,11 +361,14 @@ div.post-content {
 
 
 /* --- Background Imgs --- */
-body.page-id-38 {
+body.home {
   background: url('images/home-top.png') top left no-repeat;
   background-size: 100%, cover;
 }
-
+body.category-articles, body.page-template-page-bio {
+  background: url('images/top-grey.png') top left no-repeat;
+  background-size: 100%, cover;
+}
 
 
 
