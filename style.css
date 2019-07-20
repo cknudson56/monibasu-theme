@@ -18,6 +18,9 @@ Dark Grey: #707070
 Light Grey: #D1D1D1
 */
 
+
+
+/* --- Universal --- */
 .container {
     max-width: 100%;
 }
@@ -59,26 +62,9 @@ button a:hover {
   color: #B50707;
 }
 
+
+
 /* --- HEADER ---*/
-/*
-#menu-header-menu.menu {
-  display: flex;
-  justify-content: space-around;
-  padding-top: 24px;
-}
-#menu-header-menu li {
-  display: inline;
-  font-family: 'Montserrat', sans-serif;
-}
-#menu-header-menu li a {
-  text-decoration: none;
-  color: #707070;
-}
-#menu-header-menu li a:hover {
-  color: #B50707;
-  text-decoration: line-through;
-}
-*/
 h1 a {
   color: #B50707;
   text-decoration: none;
@@ -105,6 +91,27 @@ h1 a:hover {
 a.mega-menu-link {
     font-family: 'Montserrat', sans-serif !important;
 }
+/*
+#menu-header-menu.menu {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 24px;
+}
+#menu-header-menu li {
+  display: inline;
+  font-family: 'Montserrat', sans-serif;
+}
+#menu-header-menu li a {
+  text-decoration: none;
+  color: #707070;
+}
+#menu-header-menu li a:hover {
+  color: #B50707;
+  text-decoration: line-through;
+}
+*/
+
+
 
 /* --- FOOTER --- */
 footer {
@@ -119,9 +126,6 @@ footer h1, footer h2, footer h3, footer h4, footer h5, footer h6 {
 footer p {
   color: #D1D1D1;
   font-size: 0.5rem;
-}
-.top-footer-row {
-  padding-top: 20px;
 }
 .top-footer-row div {
     height: 35px;
@@ -144,8 +148,7 @@ footer p {
 #menu-footer-menu ul {
   margin-bottom: 0 !important;
 }
-/*Social Media Icons*/
-
+/*Social Media Icons in Footer*/
 .sfsi_widget {
   display: flex;
   justify-content: center;
@@ -162,6 +165,7 @@ footer h4 {
 footer h4 a {
   text-decoration: none;
   color: #FFFFFF;
+  font-size: 1.2rem; /*Mobile reg-1.5*/
 }
 footer h4 a:hover {
   color: #B50707;
@@ -177,12 +181,19 @@ footer h4 a:hover {
   text-align: center;
 }
 
+
+
 /* --- Home Page ---*/
 div#shortcode-2 {
     overflow: scroll;
     max-height: 710px;
     margin-bottom: 100px;
 }
+#home-page h3.widget-title {
+  text-align: center;
+}
+
+
 
 /* --- Bio Page --- */
 .bio-flex {
@@ -195,6 +206,8 @@ div#shortcode-2 {
   z-index: -1;
   margin-bottom: 35px;
 }
+
+
 
 /* --- Blogs Landing Page --- */
 #blogs-page h3 {
@@ -210,11 +223,15 @@ div#shortcode-2 {
   padding: 0 40px !important;
 }*/
 
+
+
 /* --- EBOOK Page --- */
 #page h3 {
     text-align: center;
     padding-bottom: 15px;
 }
+
+
 
 /* --- Contact Page --- */
 #contact-page h3, h4, h5, h6 {
@@ -258,6 +275,7 @@ div.wpcf7 p {
 .right-contact-column {
   padding-bottom: 25px;
 }
+
 
 
 /* --- Category Pages --- */
@@ -306,6 +324,8 @@ div.wpcf7 p {
   font-size: 3rem;
 }
 
+
+
 /* --- Single.php --- */
 .post-feature img {
   max-width: 100%;
@@ -317,6 +337,8 @@ div.wpcf7 p {
 div.post-content {
   margin-top: 40px;
 }
+
+
 
 /* --- 404 --- */
 .not-found h2 {
@@ -330,6 +352,9 @@ div.post-content {
 
 
 
+
+
+/* --- Media Queries --- */
 @media (min-width: 550px) {
   #menu-footer-menu.menu {
     justify-content: flex-start;
@@ -353,10 +378,17 @@ div.post-content {
   footer .container:after, .row:after, .u-cf {
     content: none;
   }
+  footer h4 a {
+    font-size: 1.5rem;
+  }
+  .top-footer-row {
+    padding-top: 20px;
+  }
   #home-page h3.widget-title {
     padding: 100px 0 100px 25px;
     font-size: 5rem;
     max-width: 600px;
+    text-align: left;
   }
   .widget-home.widget-top-right {
     padding-left: 5%;
@@ -386,6 +418,10 @@ div.post-content {
   .bottom-text h4 {
     margin-bottom: 5px;
     margin-top: 5px;
+    font-size: 1.5rem;
+  }
+  #menu-footer-menu.menu {
+    margin-bottom: 0 !important;
   }
 }
 
