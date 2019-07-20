@@ -1,14 +1,15 @@
 <?php
 
-//Page Slug Body Class
-function add_slug_body_class( $classes ) {
-global $post;
-if ( isset( $post ) ) {
-$classes[] = $post->post_type . '-' . $post->post_name;
+add_filter( 'body_class','class_template_names' );
+function class_template_names( $classes ) {
+
+    if ( is_page_template( 'page-home.php' ) ) {
+        $classes[] = 'page-home';
+    }
+
+    return $classes;
+
 }
-return $classes;
-}
-add_filter( 'body_class', 'add_slug_body_class' );
 
 function example_theme_scripts(){
   //Skeleton
