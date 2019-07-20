@@ -217,11 +217,14 @@ div#shortcode-2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
+  height: auto;
 }
-/*NOT WORKING!!!
-#blogs-page.widget-blogs.textwidget p {
-  padding: 0 40px !important;
-}*/
+.widget-blogs {
+    text-align: center;
+    padding: 40px;
+    border: 1px solid;
+}
 
 
 

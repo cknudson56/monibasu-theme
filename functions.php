@@ -97,7 +97,7 @@ function blank_widgets_init() {
     'name'          => ('Right Blogs Landing'),
     'id'            => 'right-blogs',
     'description'   => 'Right widget area in Blogs Landing Page',
-    'before_widget' => '<div class="widget-blogs widget-left">',
+    'before_widget' => '<div class="widget-blogs widget-right">',
     'after_widget'  => '</div>',
     'before_title'  => '<h3 class="widget-title">',
     'after_title'   => '</h3>'
