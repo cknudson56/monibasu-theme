@@ -423,6 +423,9 @@ div.post-content {
   #menu-footer-menu.menu {
     margin-bottom: 0 !important;
   }
+  .bottom-text {
+    height: 30px;
+  }
 }
 
 @media only screen and (max-width: 600px){
