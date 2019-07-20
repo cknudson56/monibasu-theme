@@ -393,7 +393,7 @@ div.post-content {
   .widget-home.widget-top-right {
     padding-left: 5%;
   }
-  #category-page  .column, .columns {
+  #category-page.column, #category-page.columns {
       margin-left: 1% !important;
       margin-right: 1% !important;
     }
