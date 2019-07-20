@@ -365,11 +365,15 @@ body.home {
   background: url('images/home-top.png') top left no-repeat;
   background-size: 100%, cover;
 }
-body.category-articles, body.page-template-page-bio {
+body.category-articles {
   background: url('images/top-grey.png') top left no-repeat;
   background-size: 100%, cover;
 }
-
+body.page-template-page-bio {
+  background: url('images/top-grey.png') top left no-repeat,
+  url('images/bottom-left-red.png') bottom left no-repeat;
+  background-size: 100%, cover;
+}
 
 
 
