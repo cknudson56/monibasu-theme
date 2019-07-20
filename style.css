@@ -176,6 +176,7 @@ footer h4 a:hover {
 .bottom-text h4, .bottom-text p {
   text-align: center;
 }
+
 /* --- Home Page ---*/
 div#shortcode-2 {
     overflow: scroll;
@@ -186,6 +187,12 @@ div#shortcode-2 {
 .bio-flex {
   display: flex;
   flex-wrap: wrap-reverse;
+}
+.widget-home.widget-top-right {
+  bottom: 0;
+  position: fixed;
+  z-index: -1;
+  margin-bottom: 35px;
 }
 
 /* --- Blogs Landing Page --- */
