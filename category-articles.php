@@ -13,7 +13,7 @@
         if(have_posts()){
           while(have_posts()){
             the_post();?>
-              <div class="twelve columns category-border">
+              <div class="twelve columns category-border articles-post">
               <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
               <?php publish_date(); ?>
               <?php the_excerpt(); ?>

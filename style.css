@@ -11,6 +11,7 @@
 /*
 font-family: 'Playfair Display', serif;
 font-family: 'Montserrat', sans-serif;
+font-family: 'Cardo', serif;
 Dark Red: #8A0707
 Bright Red: #B50707
 White: #FFFFFF
@@ -29,7 +30,7 @@ header h1 {
   font-weight: 600;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Playfair Display',serif;
+  font-family: 'Montserrat', sans-serif;
   color: #B50707;
 }
 h2 {
@@ -39,6 +40,9 @@ h2 {
 p {
     font-family: 'Montserrat',sans-serif;
     color: #707070;
+}
+.articles-post p, .category-post p, .post-content p {
+  font-family: 'Cardo', serif;
 }
 .content-margin {
     margin-bottom: 175px;
