@@ -9,7 +9,12 @@
 
   <div class="row">
     <div class="one-half column">
+      <?php $category_id = get_cat_ID( ‘Infectious Travels’ );
+      $category_link = get_category_link( $category_id );
+      ?>
+      <a href=”<?php esc_url( $category_link ); ?>”>
         <?php dynamic_sidebar('left-blogs'); ?>
+      </a>
     </div>
 
     <div class="one-half column">
