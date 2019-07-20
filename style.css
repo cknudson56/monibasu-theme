@@ -361,7 +361,7 @@ div.post-content {
 
 
 /* --- Background Imgs --- */
-#home-page body {
+body.page-id-38 {
   background: url('images/bodyshapes_MoniBasureda.png') top left no-repeat;
   background-size: 100%, cover;
 }
