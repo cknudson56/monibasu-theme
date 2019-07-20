@@ -1,4 +1,15 @@
 <?php
+
+//Page Slug Body Class
+function add_slug_body_class( $classes ) {
+global $post;
+if ( isset( $post ) ) {
+$classes[] = $post->post_type . '-' . $post->post_name;
+}
+return $classes;
+}
+add_filter( 'body_class', 'add_slug_body_class' );
+
 function example_theme_scripts(){
   //Skeleton
   wp_enqueue_style('skeleton', get_template_directory_uri() . '/css/skeleton.css');
