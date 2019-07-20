@@ -176,6 +176,11 @@ footer h4 a:hover {
 .bottom-text h4, .bottom-text p {
   text-align: center;
 }
+/* --- Home Page ---*/
+div#shortcode-2 {
+    overflow: scroll;
+    max-height: 710px;
+}
 
 /* --- Bio Page --- */
 .bio-flex {
