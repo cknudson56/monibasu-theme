@@ -352,6 +352,14 @@ div.post-content {
   footer .container:after, .row:after, .u-cf {
     content: none;
   }
+  #home-page h3.widget-title {
+    padding: 100px 0 100px 25px;
+    font-size: 5rem;
+    max-width: 600px;
+  }
+  .widget-home.widget-top-right {
+    padding-left: 5%;
+  }
   #category-page  .column, .columns {
       margin-left: 1% !important;
       margin-right: 1% !important;
