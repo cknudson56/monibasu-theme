@@ -181,6 +181,7 @@ footer h4 a:hover {
 div#shortcode-2 {
     overflow: scroll;
     max-height: 710px;
+    margin-bottom: 100px;
 }
 
 /* --- Bio Page --- */
