@@ -1,7 +1,5 @@
 <?php
 
-
-
 function example_theme_scripts(){
   //Skeleton
   wp_enqueue_style('skeleton', get_template_directory_uri() . '/css/skeleton.css');
