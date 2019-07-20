@@ -331,6 +331,9 @@ div.wpcf7 p {
 .category-post h3, #articles-page h3 {
   font-size: 3rem;
 }
+.no-border:last-child {
+  border: none;
+}
 
 
 

@@ -17,7 +17,7 @@
    </div>
 
    <div class="row">
-     <div class="twelve columns">
+     <div class="twelve columns no-border">
        <?php
          if(have_posts()){
            while(have_posts()){
