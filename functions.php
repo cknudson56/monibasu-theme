@@ -1,15 +1,6 @@
 <?php
 
-add_filter( 'body_class','class_template_names' );
-function class_template_names( $classes ) {
 
-    if ( is_page_template( 'page-home.php' ) ) {
-        $classes[] = 'page-home';
-    }
-
-    return $classes;
-
-}
 
 function example_theme_scripts(){
   //Skeleton
