@@ -437,13 +437,6 @@ div.post-content {
   }
 }
 
-/*NOT WORKING!!!!!
-@media (min-width: 550px) and (max-width: 759px) {
-  #blogs-page.one-half.column {
-    width: 100% !important;
-  }
-}*/
-
 @media (min-width: 550px) and (max-width: 899px) {
   .dual-columns {
     width: 100% !important;
