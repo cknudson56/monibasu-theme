@@ -360,6 +360,12 @@ div.post-content {
 
 
 
+/* --- Background Imgs --- */
+#home-page {
+  background: url('images/bodyshapes_MoniBasureda.png') top left no-repeat;
+  background-size: 80%, cover;
+}
+
 
 
 
