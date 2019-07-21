@@ -379,7 +379,7 @@ body.page-template-page-blogs {
   background-size: 240%;
 }
 body.page-template-default, body.category {
-  background: url('images/top-grey.png') top left no-repeat;
+  background: url('images/top-red.png') top left no-repeat;
   background-size: 240%;
 }
 body.page-template-page-contact {
@@ -436,6 +436,12 @@ body.date, body.error404, body.single {
       margin-left: 1% !important;
       margin-right: 1% !important;
     }
+}
+
+@media (min-width: 609px) {
+  body.page-template-page-bio, body.category-articles, body.date, body.error404, body.single {
+    background-size: 350% !important;
+  }
 }
 
 @media (min-width: 800px) {
