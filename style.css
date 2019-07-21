@@ -454,7 +454,7 @@ body.date, body.error404, body.single {
 }
 
 @media (min-width: 827px) {
-  body {
+  body,   body.page-template-page-bio, body.category-articles, body.date, body.error404, body.single {
     background-size: 100% !important;
   }
 }
