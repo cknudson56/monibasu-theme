@@ -231,7 +231,7 @@ div#shortcode-2 {
     padding: 40px;
     border: 1px solid;
 }
-div.one-half.column a {
+a.blogs-link {
     color: #707070;
     text-decoration: none;
 }

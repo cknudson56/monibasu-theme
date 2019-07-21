@@ -9,13 +9,13 @@
 
   <div class="row">
     <div class="one-half column">
-      <a href="http://christieknudson.com/monibasu/category/infectious-travels/">
+      <a href="http://christieknudson.com/monibasu/category/infectious-travels/" class="blogs-link">
         <?php dynamic_sidebar('left-blogs'); ?>
       </a>
     </div>
 
     <div class="one-half column">
-      <a href="http://christieknudson.com/monibasu/category/free-press-educates/">
+      <a href="http://christieknudson.com/monibasu/category/free-press-educates/" class="blogs-link">
         <?php dynamic_sidebar('right-blogs'); ?>
       </a>
     </div>
