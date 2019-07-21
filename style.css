@@ -439,8 +439,11 @@ body.date, body.error404, body.single {
 }
 
 @media (min-width: 609px) {
-  body.page-template-page-bio, body.category-articles, body.date, body.error404, body.single {
+  body.category-articles, body.date, body.error404, body.single {
     background-size: 350% !important;
+  }
+  body.page-template-page-bio {
+    background-size: 350%, 65% !important;
   }
 }
 
@@ -454,8 +457,11 @@ body.date, body.error404, body.single {
 }
 
 @media (min-width: 827px) {
-  body,   body.page-template-page-bio, body.category-articles, body.date, body.error404, body.single {
+  body, body.category-articles, body.date, body.error404, body.single {
     background-size: 100% !important;
+  }
+  body.page-template-page-bio {
+    background-size: 100%, 65% !important;
   }
 }
 
