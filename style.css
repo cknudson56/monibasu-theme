@@ -232,8 +232,8 @@ div#shortcode-2 {
     border: 1px solid;
 }
 a.blogs-link {
-    color: #707070;
-    text-decoration: none;
+    color: #707070 !important;
+    text-decoration: none !important;
 }
 
 
