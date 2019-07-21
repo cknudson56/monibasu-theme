@@ -363,19 +363,30 @@ div.post-content {
 /* --- Background Imgs --- */
 body.home {
   background: url('images/home-top.png') top left no-repeat;
-  background-size: 100%, cover;
-}
-body.category-articles {
-  background: url('images/top-grey.png') top left no-repeat;
-  background-size: 100%, cover;
+  background-size: 100%;
 }
 body.page-template-page-bio {
   background: url('images/top-grey.png') top left no-repeat,
-  url('images/bottom-left-red.png') bottom left no-repeat;
-  background-size: 100%, cover;
+  url('images/bottom-left-red.png') 0% 100% no-repeat;
+  background-size: 100%, 65%;
 }
-
-
+body.category-articles {
+  background: url('images/top-grey.png') top left no-repeat;
+  background-size: 100%;
+}
+body.page-template-page-blogs {
+  background: url('images/top-red.png') top left no-repeat;
+  background-size: 100%;
+}
+body.page, body.category {
+  background: url('images/top-grey.png') top left no-repeat;
+  background-size: 100%;
+}
+body.page-template-page-contact {
+  background: url('images/top-red.png') top left no-repeat,
+  url('images/bottom-grey.png') bottom left no-repeat;
+  background-size: 100%, 65%;
+}
 
 
 /* --- Media Queries --- */
