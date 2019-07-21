@@ -231,6 +231,10 @@ div#shortcode-2 {
     padding: 40px;
     border: 1px solid;
 }
+div.one-half.column a {
+    color: #707070;
+    text-decoration: none;
+}
 
 
 
