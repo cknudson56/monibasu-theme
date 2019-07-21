@@ -70,11 +70,11 @@ button a:hover {
 
 /* --- HEADER ---*/
 h1 a {
-  color: #B50707;
+  color: #FFFFFF;
   text-decoration: none;
 }
 h1 a:hover {
-  color: #707070;
+  color: #B50707;
 }
 .header-flex {
   display: flex;
@@ -387,6 +387,10 @@ body.page-template-page-contact {
   url('images/bottom-grey.png') bottom left no-repeat;
   background-size: 240%, 100%;
 }
+body.date, body.error404, body.single {
+  background: url('images/top-grey.png') top left no-repeat;
+  background-size: 240%;
+}
 
 
 /* --- Media Queries --- */
@@ -445,7 +449,7 @@ body.page-template-page-contact {
 
 @media (min-width: 827px) {
   body {
-    background size: 100%;
+    background-size: 100% !important;
   }
 }
 
