@@ -378,7 +378,7 @@ body.page-template-page-blogs {
   background: url('images/top-red.png') top left no-repeat;
   background-size: 240%;
 }
-body.page, body.category {
+body.page-template-default, body.category {
   background: url('images/top-grey.png') top left no-repeat;
   background-size: 240%;
 }
