@@ -198,6 +198,12 @@ div#shortcode-2 {
   font-family: 'Cardo', serif;
   color: #FFFFFF;
 }
+.widget-home.widget-top-right {
+  /*bottom: 0;
+  position: fixed;
+  z-index: -1;
+  margin-bottom: 35px;*/
+}
 
 
 
@@ -206,12 +212,7 @@ div#shortcode-2 {
   display: flex;
   flex-wrap: wrap-reverse;
 }
-.widget-home.widget-top-right {
-  bottom: 0;
-  position: fixed;
-  z-index: -1;
-  margin-bottom: 35px;
-}
+
 
 
 
