@@ -213,10 +213,11 @@ div#shortcode-2 {
   color: #FFFFFF;
 }
 .widget-home.widget-top-right {
-  /*bottom: 0;
+  position: relative;
+}
+.widget-home.widget-top-right img {
   position: fixed;
-  z-index: -1;
-  margin-bottom: 35px;*/
+  bottom: -305px;
 }
 #home-page {
   padding-top: 96px;
@@ -228,6 +229,7 @@ div#shortcode-2 {
   margin-left: -107px;
   clip-path: polygon(50% 0%, 100% 0, 100% 86%, 34% 100%, 0 87%, 0 0);
 }
+
 
 
 
@@ -440,6 +442,11 @@ body.date, body.error404, body.single {
 
 
 /* --- Media Queries --- */
+@media (min-width: 480px) {
+  .widget-home.widget-top-right img {
+    bottom: -375px;
+  }
+}
 @media (min-width: 550px) {
   #menu-footer-menu.menu {
     justify-content: flex-start;
