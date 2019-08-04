@@ -525,6 +525,9 @@ body.date, body.error404, body.single {
   .bottom-text {
     height: 30px;
   }
+  .top-footer-row {
+    padding-top: 10px;
+  }
 }
 
 @media only screen and (max-width: 600px){
