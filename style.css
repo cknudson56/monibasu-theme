@@ -22,7 +22,7 @@ Light Grey: #D1D1D1
 
 /* --- Universal --- */
 .container {
-    max-width: 100%;
+    max-width: 100% !important;
 }
 header h1 {
   font-family: 'Montserrat', sans-serif;
@@ -226,7 +226,6 @@ div#shortcode-2 {
   background-color: #8A0707;
   height: 400px;
   width: 102vw;
-  margin-left: -107px;
   clip-path: polygon(50% 0%, 100% 0, 100% 86%, 34% 100%, 0 87%, 0 0);
 }
 
