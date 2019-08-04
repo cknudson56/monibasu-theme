@@ -223,6 +223,10 @@ div#shortcode-2 {
 }
 .home-banner {
   background-color: #8A0707;
+  height: 400px;
+  width: 102vw;
+  margin-left: -107px;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
 }
 
 
