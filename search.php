@@ -10,7 +10,7 @@ get_header();
               <?php while(have_posts()){
                 the_post(); ?>
                 <div class="row category-flex category-border">
-                  <div class="category-post">
+                  <div class="">
                     <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                     <?php publish_date(); ?>
                     <?php the_excerpt(); ?>
