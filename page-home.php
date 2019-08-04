@@ -3,7 +3,7 @@
 
 <div id="home-page" class="container">
 
-  <div class="row">
+  <div class="row home-banner">
     <div class="one-half column">
         <?php dynamic_sidebar('top-left-home'); ?>
     </div>
