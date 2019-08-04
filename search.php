@@ -2,14 +2,14 @@
 get_header();
 ?>
 
-<div class="container">
+<div class="container content-margin">
   <div class="row">
     <div class="twelve columns">
       <?php if(have_posts()){?>
-              <h1><?php printf(__('Search Results for : %s'), '<span>' . get_search_query() . '</span>');?></h1>
+              <h2 class="text-align-left"><?php printf(__('Search Results for : %s'), '<span>' . get_search_query() . '</span>');?></h2>
               <?php while(have_posts()){
                 the_post(); ?>
-                <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+                <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                 <?php the_excerpt();?>
               </p><a href="<?php the_permalink(); ?>">Read More...</a></p><?php
               }

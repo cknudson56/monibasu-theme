@@ -65,6 +65,9 @@ button a {
 button a:hover {
   color: #B50707;
 }
+.text-align-left {
+  text-align: left;
+}
 
 
 
