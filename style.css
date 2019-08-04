@@ -376,14 +376,17 @@ div.post-content {
 
 
 /* --- Background Imgs --- */
+body.page-template-page-bio {
+  background: url('images/moni-basu-logo-watermark.png') bottom right no-repeat;
+  background-size: 65%;
+}
 /*body.home {
   background: url('images/home-top.png') top center no-repeat;
   background-size: 200%;
 }
 body.page-template-page-bio {
-  background: url('images/top-grey.png') top left no-repeat,
-  url('images/bottom-left-red.png') bottom left no-repeat;
-  background-size: 240%, 65%;
+  background: url('images/moni-basu-logo-watermark.png') bottom right no-repeat;
+  background-size: 65%;
 }
 body.category-articles {
   background: url('images/top-grey.png') top left no-repeat;
