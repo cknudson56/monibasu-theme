@@ -23,6 +23,7 @@ Light Grey: #D1D1D1
 /* --- Universal --- */
 .container {
     max-width: 100% !important;
+    width: 100% !important;
 }
 header h1 {
   font-family: 'Montserrat', sans-serif;
