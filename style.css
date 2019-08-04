@@ -104,6 +104,28 @@ h1 a:hover {
 a.mega-menu-link {
     font-family: 'Montserrat', sans-serif !important;
 }
+.mega-menu-item a:before, .mega-menu-item a:after {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: #FFF;
+    content: "";
+    opacity: 0;
+    transition: all 0.3s;
+}
+.mega-menu-item a:before {
+    top: 0px;
+    transform: translateY(10px);
+}
+.mega-menu-item a:after {
+    bottom: 0px;
+    transform: translateY(-10px);
+}
+.mega-menu-item a:hover:before, .mega-menu-item a:hover:after {
+    opacity: 1;
+    transform: translateY(0px);
+}
 /*
 #menu-header-menu.menu {
   display: flex;
