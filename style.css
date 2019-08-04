@@ -489,6 +489,9 @@ body.date, body.error404, body.single {
       margin-left: 1% !important;
       margin-right: 1% !important;
     }
+    .widget-home.widget-top-right img {
+      right: -100px;
+    }
 }
 
 @media (min-width: 800px) {
@@ -503,6 +506,9 @@ body.date, body.error404, body.single {
 @media (min-width: 900px) {
   .category-post {
     width: 58%;
+  }
+  .widget-home.widget-top-right img {
+    right: 0px;
   }
 }
 
