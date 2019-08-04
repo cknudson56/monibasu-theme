@@ -515,9 +515,3 @@ body.date, body.error404, body.single {
     margin-left: 0%;
   }
 }
-
-@media (min-width: 600px) and (max-width: 899px) {
-  .header-flex {
-    justify-content: center;
-  }
-}
