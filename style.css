@@ -76,7 +76,7 @@ button a:hover {
 
 /* --- HEADER ---*/
 header {
-  background-color: #B50707;
+  background-color: #8A0707;
 }
 h1 a {
   color: #FFFFFF;
@@ -462,22 +462,6 @@ body.date, body.error404, body.single {
     }
 }
 
-@media (min-width: 609px) {
-  body.category-articles, body.date, body.error404, body.single {
-    background-size: 350% !important;
-  }
-  body.page-template-page-bio {
-    background-size: 350%, 100% !important;
-  }
-}
-
-@media (min-width: 700px) {
-  body.home {
-    background: url('images/home-top.png') top center no-repeat;
-    background-size: 150% !important;
-  }
-}
-
 @media (min-width: 800px) {
   .category-post {
     width: 48%;
@@ -487,26 +471,9 @@ body.date, body.error404, body.single {
   }
 }
 
-@media (min-width: 827px) {
-  body, body.category-articles, body.date, body.error404, body.single {
-    background-size: 100% !important;
-  }
-  body.home {
-    background: url('images/home-top.png') top center no-repeat;
-    background-size: 120% !important;
-  }
-  body.page-template-page-bio {
-    background-size: 100%, 65% !important;
-  }
-}
-
 @media (min-width: 900px) {
   .category-post {
     width: 58%;
-  }
-  body.home {
-    background: url('images/home-top.png') top center no-repeat;
-    background-size: 100% !important;
   }
 }
 
