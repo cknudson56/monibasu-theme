@@ -153,6 +153,7 @@ footer p {
 #menu-footer-menu li a:hover:after {
   width: 100%;
   left: 0;
+  background: B50707;
 }
 #menu-footer-menu li a:hover {
   color: #D1D1D1;
