@@ -17,7 +17,11 @@
     <div class="container">
       <div class="row header-flex">
         <div id="site-heading">
-          <h1><a href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?></a></h1>
+          <?php if(get_header_image() == '') { ?>
+            <h1><a href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?></a></h1>
+            <?php
+          }
+          ?>
         </div>
         <div id="site-nav">
           <?php wp_nav_menu(array(
