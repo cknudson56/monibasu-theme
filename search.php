@@ -2,7 +2,7 @@
 get_header();
 ?>
 
-<div id="search-page" class="container content-margin">
+<div id="search-page" class="container container-max-width content-margin">
   <div class="row">
     <div class="twelve columns">
       <?php if(have_posts()){?>

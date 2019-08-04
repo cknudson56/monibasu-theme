@@ -402,6 +402,15 @@ body.date, body.error404, body.single {
 }
 
 
+
+
+
+
+
+
+
+
+
 /* --- Media Queries --- */
 @media (min-width: 550px) {
   #menu-footer-menu.menu {
@@ -492,6 +501,12 @@ body.date, body.error404, body.single {
   body.home {
     background: url('images/home-top.png') top center no-repeat;
     background-size: 100% !important;
+  }
+}
+
+@media (min-width: 1300px) {
+  .container-max-width {
+    max-width: 1200px !important;
   }
 }
 

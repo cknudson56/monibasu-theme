@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div id="archives-page" class="container content-margin">
+<div id="archives-page" class="container container-max-width content-margin">
   <div class="row">
     <div class="twelve columns">
       <h2><?php

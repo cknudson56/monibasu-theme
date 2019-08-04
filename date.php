@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div id="date-page" class="container content-margin">
+<div id="date-page" class="container container-max-width content-margin">
 
   <div class="row">
     <div class="twelve columns">
