@@ -75,6 +75,9 @@ button a:hover {
 
 
 /* --- HEADER ---*/
+header {
+  background-color: #B50707;
+}
 h1 a {
   color: #FFFFFF;
   text-decoration: none;
@@ -373,7 +376,7 @@ div.post-content {
 
 
 /* --- Background Imgs --- */
-body.home {
+/*body.home {
   background: url('images/home-top.png') top center no-repeat;
   background-size: 200%;
 }
@@ -402,7 +405,7 @@ body.page-template-page-contact {
 body.date, body.error404, body.single {
   background: url('images/top-grey.png') top left no-repeat;
   background-size: 240%;
-}
+}*/
 
 
 
