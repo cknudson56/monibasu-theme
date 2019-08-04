@@ -73,7 +73,12 @@ button a:hover {
 .caption /*caption on image gallery*/{
   display: none !important;
 }
-
+.pad-left {
+  padding-left: 5%;
+}
+.pad-right {
+  padding-right: 5%;
+}
 
 
 /* --- HEADER ---*/
