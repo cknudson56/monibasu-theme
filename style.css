@@ -104,49 +104,6 @@ h1 a:hover {
 a.mega-menu-link {
     font-family: 'Montserrat', sans-serif !important;
 }
-/*
-.mega-menu-item a:before, .mega-menu-item a:after {
-    position: absolute;
-    left: 0px;
-    width: 100%;
-    height: 2px;
-    background: #FFF;
-    content: "";
-    opacity: 0;
-    transition: all 0.3s;
-}
-.mega-menu-item a:before {
-    top: 0px;
-    transform: translateY(10px);
-}
-.mega-menu-item a:after {
-    bottom: 0px;
-    transform: translateY(-10px);
-}
-.mega-menu-item a:hover:before, .mega-menu-item a:hover:after {
-    opacity: 1;
-    transform: translateY(0px);
-}
-*/
-/*
-#menu-header-menu.menu {
-  display: flex;
-  justify-content: space-around;
-  padding-top: 24px;
-}
-#menu-header-menu li {
-  display: inline;
-  font-family: 'Montserrat', sans-serif;
-}
-#menu-header-menu li a {
-  text-decoration: none;
-  color: #707070;
-}
-#menu-header-menu li a:hover {
-  color: #B50707;
-  text-decoration: line-through;
-}
-*/
 
 
 
@@ -178,6 +135,26 @@ footer p {
 #menu-footer-menu li a {
   text-decoration: none;
   color: #FFFFFF;
+  position: relative;
+}
+#menu-footer-menu li a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+#menu-footer-menu li a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
 }
 #menu-footer-menu li a:hover {
   color: #D1D1D1;
