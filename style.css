@@ -489,10 +489,13 @@ body.date, body.error404, body.single {
       margin-left: 1% !important;
       margin-right: 1% !important;
     }
-    .widget-home.widget-top-right img {
-      right: -100px;
-      bottom: 350px;
-    }
+  .widget-home.widget-top-right img {
+    right: -100px;
+    bottom: 350px;
+  }
+  .norm_row.sfsi_wDiv {
+    right: 5% !important;
+  }
 }
 
 @media (min-width: 800px) {
@@ -519,6 +522,9 @@ body.date, body.error404, body.single {
   }
   .widget-home.widget-top-right img {
     bottom: 375px;
+  }
+  #site-nav {
+    width: 700px;
   }
 }
 
