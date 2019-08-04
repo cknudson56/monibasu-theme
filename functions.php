@@ -198,4 +198,12 @@ function publish_date() {
 <?php
 }
 
+//Logo in the header
+$custom_image_header = array(
+  'width' => 150,
+  'height' => 90,
+  'uploads' => true,
+);
+add_theme_support('custom-header', $custom_image_header)
+
 ?>
