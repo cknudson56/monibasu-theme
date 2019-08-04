@@ -442,11 +442,6 @@ body.date, body.error404, body.single {
 
 
 /* --- Media Queries --- */
-@media (min-width: 480px) {
-  .widget-home.widget-top-right img {
-    bottom: 375px;
-  }
-}
 @media (min-width: 550px) {
   #menu-footer-menu.menu {
     justify-content: flex-start;
@@ -491,6 +486,7 @@ body.date, body.error404, body.single {
     }
     .widget-home.widget-top-right img {
       right: -100px;
+      bottom: 350px;
     }
 }
 
@@ -515,6 +511,9 @@ body.date, body.error404, body.single {
 @media (min-width: 1300px) {
   .container-max-width {
     max-width: 1200px !important;
+  }
+  .widget-home.widget-top-right img {
+    bottom: 375px;
   }
 }
 
