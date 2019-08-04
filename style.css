@@ -46,7 +46,7 @@ p {
 }
 .content-margin {
     margin-bottom: 175px;
-    padding-top: 100px;
+    padding-top: 96px;
 }
 .float-left {
   float: left;
@@ -226,7 +226,7 @@ div#shortcode-2 {
   height: 400px;
   width: 102vw;
   margin-left: -107px;
-  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+  clip-path: polygon(50% 0%, 100% 0, 100% 86%, 34% 100%, 0 87%, 0 0);
 }
 
 
