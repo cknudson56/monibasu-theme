@@ -68,6 +68,9 @@ button a:hover {
 .text-align-left {
   text-align: left;
 }
+.caption /*caption on image gallery*/{
+  display: none !important;
+}
 
 
 
