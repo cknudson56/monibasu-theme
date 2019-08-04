@@ -46,6 +46,7 @@ p {
 }
 .content-margin {
     margin-bottom: 175px;
+    padding-top: 100px;
 }
 .float-left {
   float: left;
@@ -77,6 +78,9 @@ button a:hover {
 /* --- HEADER ---*/
 header {
   background-color: #8A0707;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
 }
 h1 a {
   color: #FFFFFF;
