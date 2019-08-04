@@ -330,6 +330,9 @@ div.wpcf7 p {
     justify-content: space-between;
     flex-wrap: wrap;
 }
+input[type="submit"] #searchsubmit {
+  padding: 0 15px !important;
+}
 #category-page h3.widget-title {
     display: none;
 }
