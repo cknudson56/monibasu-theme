@@ -328,6 +328,7 @@ div.wpcf7 p {
 .sidebar-inline {
     display: flex !important;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 #category-page h3.widget-title {
     display: none;
