@@ -13,7 +13,7 @@
     </div>
   </div>
   <div class="row">
-    <div class="twelve columns no-border">
+    <div class="twelve columns">
       <?php
         if(have_posts()){
           while(have_posts()){

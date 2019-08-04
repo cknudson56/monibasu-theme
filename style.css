@@ -304,11 +304,11 @@ div.wpcf7 p {
   text-align: center;
   padding-bottom: 20px;
 }
-#category-page a, #articles-page a, #archives-page a, #date-page a {
+#category-page a, #articles-page a, #archives-page a, #date-page a, #search-page a {
     text-decoration: none;
     color: #707070;
 }
-#category-page a:hover, #articles-page a:hover, #archives-page a:hover, #date-page a:hover {
+#category-page a:hover, #articles-page a:hover, #archives-page a:hover, #date-page a:hover, #search-page a:hover {
     color: #D1D1D1;
 }
 .sidebar-inline {
@@ -340,7 +340,7 @@ div.wpcf7 p {
 .category-post h3, #articles-page h3 {
   font-size: 3rem;
 }
-.no-border:last-child {
+.category-border:last-child {
   border: none;
 }
 

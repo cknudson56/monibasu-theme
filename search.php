@@ -2,16 +2,21 @@
 get_header();
 ?>
 
-<div class="container content-margin">
+<div id="search-page" class="container content-margin">
   <div class="row">
     <div class="twelve columns">
       <?php if(have_posts()){?>
               <h2 class="text-align-left"><?php printf(__('Search Results for : %s'), '<span>' . get_search_query() . '</span>');?></h2>
               <?php while(have_posts()){
                 the_post(); ?>
-                <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-                <?php the_excerpt();?>
-              </p><a href="<?php the_permalink(); ?>">Read More...</a></p><?php
+                <div class="row category-flex category-border">
+                  <div class="category-post">
+                    <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                    <?php publish_date(); ?>
+                    <?php the_excerpt(); ?>
+                    </p><a href="<?php the_permalink(); ?>">Read More...</a></p>
+                  </div>
+                </div><?php
               }
             }else{?>
               <h1>Nothing was found</h1>
