@@ -574,7 +574,8 @@ body.date, body.error404, body.single {
 
 @media (max-width: 399px) {
   .container {
-    padding: 0 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 }
 
