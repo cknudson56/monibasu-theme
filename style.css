@@ -223,7 +223,7 @@ div#shortcode-2 {
 }
 .widget-home.widget-top-right img {
   position: fixed;
-  bottom: 330px;
+
 }
 #home-page {
   padding-top: 96px;
@@ -498,7 +498,6 @@ body.date, body.error404, body.single {
     }
   .widget-home.widget-top-right img {
     right: -100px;
-    bottom: 345px;
   }
   .norm_row.sfsi_wDiv {
     right: 5% !important;
@@ -529,9 +528,6 @@ body.date, body.error404, body.single {
 @media (min-width: 1300px) {
   .container-max-width {
     max-width: 1200px !important;
-  }
-  .widget-home.widget-top-right img {
-    bottom: 375px;
   }
   #site-nav {
     width: 700px;
