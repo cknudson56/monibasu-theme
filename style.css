@@ -327,11 +327,11 @@ div.wpcf7 p {
   margin-bottom: 0 !important;
 }
 input.wpcf7-form-control.wpcf7-submit {
-    background-color: #D1D1D1;
+    background-color: #D1D1D1 !important;
 }
 input.wpcf7-form-control.wpcf7-submit:hover {
-    background-color: #707070;
-    color: #FFFFFF;
+    background-color: #707070 !important;
+    color: #FFFFFF !important;
 }
 .contact-flex {
   display: flex;
