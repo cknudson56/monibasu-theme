@@ -14,7 +14,7 @@
   </div>
 
   <div class="row">
-    <div class="twelve columns">
+    <div class="twelve columns social">
       <?php dynamic_sidebar('main-social'); ?>
     </div>
   </div>

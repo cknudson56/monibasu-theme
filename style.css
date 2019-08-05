@@ -491,10 +491,15 @@ body.date, body.error404, body.single {
     }
   .widget-home.widget-top-right img {
     right: -100px;
-    bottom: 350px;
+    bottom: 345px;
   }
   .norm_row.sfsi_wDiv {
     right: 5% !important;
+  }
+  .twelve.columns.social {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
