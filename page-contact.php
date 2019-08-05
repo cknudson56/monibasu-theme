@@ -12,7 +12,7 @@
         <?php dynamic_sidebar('left-contact-page'); ?>
     </div>
 
-    <div class="one-half column right-contact-column">
+    <div class="one-half column right-contact-column pad-right">
       <?php
         if(have_posts()){
           while(have_posts()){

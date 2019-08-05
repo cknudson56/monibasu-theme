@@ -4,7 +4,7 @@ get_header();
 
 <div id="search-page" class="container container-max-width content-margin">
   <div class="row">
-    <div class="twelve columns">
+    <div class="twelve columns pad-left pad-right">
       <?php if(have_posts()){?>
               <h2 class="text-align-left"><?php printf(__('Search Results for : %s'), '<span>' . get_search_query() . '</span>');?></h2>
               <?php while(have_posts()){

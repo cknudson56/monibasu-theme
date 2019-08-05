@@ -3,7 +3,7 @@
 <div id="date-page" class="container container-max-width content-margin">
 
   <div class="row">
-    <div class="twelve columns">
+    <div class="twelve columns pad-left">
       <?php
         if(is_day()){
           echo "<h2>Daily Archives: " . get_the_date() . "</h2>";
@@ -17,7 +17,7 @@
    </div>
 
    <div class="row">
-     <div class="twelve columns no-border">
+     <div class="twelve columns no-border pad-left pad-right">
        <?php
          if(have_posts()){
            while(have_posts()){

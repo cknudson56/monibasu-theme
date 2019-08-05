@@ -8,12 +8,12 @@
     </div>
   </div>
   <div class="row">
-    <div class="sidebar-inline twelve columns">
+    <div class="sidebar-inline twelve columns pad-left pad-right">
       <?php get_sidebar(); ?>
     </div>
   </div>
   <div class="row">
-    <div class="twelve columns">
+    <div class="twelve columns pad-left pad-right">
       <?php
         if(have_posts()){
           while(have_posts()){

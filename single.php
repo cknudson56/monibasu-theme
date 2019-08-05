@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div id="single-page" class="container container-max-width content-margin">
+<div id="single-page" class="container container-max-width content-margin pad-left pad-right">
 <?php
   if(have_posts()){
     while(have_posts()){

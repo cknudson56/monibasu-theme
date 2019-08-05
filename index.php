@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="container content-margin">
+<div class="container content-margin pad-left pad-right">
   <div class="row">
     <?php
       if(have_posts()){
