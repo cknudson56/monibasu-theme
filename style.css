@@ -77,8 +77,8 @@ button a:hover {
   color: #B50707;
 }
 button:hover, button:focus, button:active {
-  -webkit-transform: translateX(8px);
-  transform: translateX(8px);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 .text-align-left {
   text-align: left;
