@@ -409,8 +409,15 @@ div.post-content {
     font-family: 'Cardo', serif;
     padding: 5px 0;
 }
-.comments-items {
-
+.comments-title {
+  margin-bottom: 0 !important;
+  padding-top: 40px;
+}
+div#respond {
+  padding-top: 40px;
+}
+textarea#comment {
+  max-width: 300px;
 }
 
 /* --- 404 --- */
@@ -509,6 +516,9 @@ body.page-template-page-bio, body.page-template-page-contact, body.single, body.
   }
   .twelve.columns.social {
     width: 60%;
+  }
+  textarea#comment {
+    max-width: 400px;
   }
 }
 

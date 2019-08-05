@@ -1,5 +1,5 @@
 <?php
-  echo '<h3>Comments</h3>';
+  echo '<h3 class="comments-title">Comments</h3>';
 foreach ($comments as $comment): ?>
   <div class="comments-items category-border"><?php
     echo '<div class="comment-author">' . get_comment_author_link() . '</div>';
