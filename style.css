@@ -234,6 +234,13 @@ div#shortcode-2 {
   width: 102vw;
   clip-path: polygon(50% 0%, 100% 0, 100% 86%, 34% 100%, 0 87%, 0 0);
 }
+.twelve.columns.social {
+  margin-left: auto;
+  margin-right: auto;
+  float: none !important;
+  margin-top: 100px;
+}
+
 
 
 
@@ -498,8 +505,6 @@ body.date, body.error404, body.single {
   }
   .twelve.columns.social {
     width: 60%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 
