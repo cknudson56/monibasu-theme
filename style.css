@@ -224,7 +224,7 @@ div#shortcode-2 {
 }
 .widget-home.widget-top-right img {
   position: absolute;
-  top: 140px;
+  top: 160px;
 }
 #home-page {
   padding-top: 96px;
@@ -458,6 +458,11 @@ body.date, body.error404, body.single {
 @media (min-width: px) {
   .widget-home.widget-top-right img {
     top: px;
+  }
+}
+@media (min-width: 360px) {
+  .widget-home.widget-top-right img {
+    top: 140px;
   }
 }
 @media (min-width: 400px) {
