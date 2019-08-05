@@ -231,8 +231,9 @@ div#shortcode-2 {
 .home-banner {
   background-color: #8A0707;
   height: 500px;
-  width: 102vw;
+  width: 100vw;
   clip-path: polygon(50% 0%, 100% 0, 100% 86%, 34% 100%, 0 87%, 0 0);
+  overflow-x: hidden;
 }
 .twelve.columns.social {
   margin-left: auto;
