@@ -7,7 +7,7 @@
     while(have_posts()){
       the_post(); ?>
       <div class="post-feature">
-        <?php the_post_thumbnail('medium'); ?>
+        <?php the_post_thumbnail(); ?>
       </div>
       <h2 class="post-title"><?php the_title(); ?></h2>
       <div class="who-when">
