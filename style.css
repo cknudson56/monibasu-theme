@@ -232,6 +232,7 @@ div#shortcode-2 {
   background-color: #8A0707;
   height: 500px;
   width: 100vw;
+  -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 86%, 34% 100%, 0 87%, 0 0);
   clip-path: polygon(50% 0%, 100% 0, 100% 86%, 34% 100%, 0 87%, 0 0);
   overflow: hidden;
 }
