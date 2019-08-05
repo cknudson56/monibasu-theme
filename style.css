@@ -411,6 +411,15 @@ input#searchsubmit {
 }
 
 
+/* --- Sidebar --- */
+.widget-sidebar label.screen-reader-text {
+    color: #8A0707;
+    font-family: 'Montserrat', sans-serif;
+}
+.widget-sidebar select {
+  color: #707070;
+  font-family: 'Montserrat', sans-serif;
+}
 
 /* --- Single.php --- */
 .post-feature img {
