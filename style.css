@@ -401,6 +401,18 @@ div.post-content {
 
 
 
+/* --- Comments --- */
+.comment-author, .comment-date {
+    font-family: 'Montserrat', sans-serif;
+}
+.comment-text {
+    font-family: 'Cardo', serif;
+    padding: 5px 0;
+}
+.comments-items {
+
+}
+
 /* --- 404 --- */
 .not-found h2 {
   text-align: left;
@@ -415,36 +427,6 @@ body.page-template-page-bio, body.page-template-page-contact, body.single, body.
   background: url('images/moni-basu-logo-watermark.png') bottom right no-repeat;
   background-size: 290px;
 }
-/*body.home {
-  background: url('images/home-top.png') top center no-repeat;
-  background-size: 200%;
-}
-body.page-template-page-bio {
-  background: url('images/moni-basu-logo-watermark.png') bottom right no-repeat;
-  background-size: 65%;
-}
-body.category-articles {
-  background: url('images/top-grey.png') top left no-repeat;
-  background-size: 240%;
-}
-body.page-template-page-blogs {
-  background: url('images/top-red.png') top left no-repeat;
-  background-size: 240%;
-}
-body.page-template-default, body.category {
-  background: url('images/top-red.png') top left no-repeat;
-  background-size: 240%;
-}
-body.page-template-page-contact {
-  background: url('images/top-red.png') top left no-repeat,
-  url('images/bottom-grey.png') bottom left no-repeat;
-  background-size: 240%, 100%;
-}
-body.date, body.error404, body.single {
-  background: url('images/top-grey.png') top left no-repeat;
-  background-size: 240%;
-}*/
-
 
 
 
