@@ -340,6 +340,9 @@ div.wpcf7 p {
 .cat-description p {
   text-align: center;
   padding-bottom: 20px;
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
 }
 #category-page a, #articles-page a, #archives-page a, #date-page a, #search-page a {
     text-decoration: none;
