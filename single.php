@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 
 <div id="single-page" class="container container-max-width content-margin pad-left pad-right">
+<div class="row">
 <?php
   if(have_posts()){
     while(have_posts()){
@@ -23,6 +24,7 @@
     comments_template();
   endif;
 ?>
+</div>
 </div>
 
 
