@@ -210,7 +210,7 @@ footer h4 a:hover {
 /* --- Home Page ---*/
 div#shortcode-2 {
     overflow: scroll;
-    max-height: 710px;
+    max-height: 500px;
     margin-bottom: 100px;
 }
 #home-page h3.widget-title {
