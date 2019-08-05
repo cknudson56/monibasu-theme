@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <div id="category-page" class="container container-max-width content-margin">
-  <div class="row">
+  <div class="row cat-page-title">
     <div class="twelve columns cat-description">
       <h2><?php single_cat_title(); ?></h2>
       <?php echo category_description(); ?>

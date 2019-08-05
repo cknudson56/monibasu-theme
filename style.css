@@ -371,7 +371,7 @@ input#searchsubmit {
   flex-wrap: wrap;
 }
 .category-border {
-  border-bottom: 1px solid;
+  border-bottom: 1px solid #8A0707;
   padding-top: 30px;
   padding-bottom: 15px;
 }
@@ -383,6 +383,15 @@ input#searchsubmit {
 }
 .category-border:last-child {
   border: none;
+}
+.row.cat-page-title {
+    display: flex;
+    justify-content: center;
+}
+.twelve.columns.cat-description {
+    border: solid 1px #8A0707;
+    margin: 40px 5%;
+    padding: 40px;
 }
 
 
