@@ -224,7 +224,8 @@ footer h4 a:hover {
 div#shortcode-2 {
     overflow: scroll;
     max-height: 500px;
-    margin-bottom: 100px;
+    margin-bottom: 300px;
+    max-width: 500px;
 }
 #home-page h3.widget-title {
   text-align: center;
@@ -324,6 +325,13 @@ textarea.wpcf7-form-control.wpcf7-textarea {
 }
 div.wpcf7 p {
   margin-bottom: 0 !important;
+}
+input.wpcf7-form-control.wpcf7-submit {
+    background-color: #D1D1D1;
+}
+input.wpcf7-form-control.wpcf7-submit:hover {
+    background-color: #707070;
+    color: #FFFFFF;
 }
 .contact-flex {
   display: flex;
