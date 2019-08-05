@@ -572,6 +572,12 @@ body.date, body.error404, body.single {
   }
 }
 
+@media (max-width: 399px) {
+  .container {
+    padding: 0 0 !important;
+  }
+}
+
 @media only screen and (max-width: 600px){
 #mega-menu-wrap-header-menu #mega-menu-header-menu > li.mega-menu-flyout ul.mega-sub-menu {
     padding: 0 0 0 20px;
