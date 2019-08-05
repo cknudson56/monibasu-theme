@@ -1,7 +1,7 @@
 <?php /*Template Name: Contact Page Template*/ ?>
 <?php get_header(); ?>
 
-<div id="contact-page" class="container container-max-width content-margin-contact">
+<div id="contact-page" class="container container-max-width content-margin content-margin-contact">
 
   <div class="row">
     <h2><?php the_title(); ?></h2>
