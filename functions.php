@@ -43,6 +43,16 @@ function blank_widgets_init() {
     'before_title'  => '<h3 class="widget-title">',
     'after_title'   => '</h3>'
   ));
+  //Home Page Recent Posts Widget
+  register_sidebar(array(
+    'name'          => ('Recent Posts'),
+    'id'            => 'recent-posts',
+    'description'   => 'Recent Posts widget area in Home Page',
+    'before_widget' => '<div class="widget-posts widget-home">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="widget-title">',
+    'after_title'   => '</h3>'
+  ));
   //Home Page MAIN Social Widget
   register_sidebar(array(
     'name'          => ('Main Social'),
