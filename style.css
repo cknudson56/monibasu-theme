@@ -237,8 +237,10 @@ div#shortcode-2 {
 }
 #home-page h3.widget-title {
   text-align: center;
-  font-family: 'Cardo', serif;
+  font-family: 'Montserrat', sans-serif;
   color: #FFFFFF;
+  font-weight: 600;
+  padding: 80px 5%;
 }
 .widget-home.widget-top-right {
   position: relative;
@@ -567,7 +569,7 @@ body.page-template-page-bio, body.page-template-page-contact, body.single, body.
     padding-top: 20px;
   }
   #home-page h3.widget-title {
-    padding: 100px 0 100px 25px;
+    padding: 100px 0 100px 10%;
     font-size: 5rem;
     max-width: 600px;
     text-align: left;
@@ -602,6 +604,10 @@ body.page-template-page-bio, body.page-template-page-contact, body.single, body.
   .six.columns.recent-posts {
       padding-bottom: 0px;
   }
+  #home-page h3.widget-title {
+    padding: 50px 0 100px 10%;
+    font-size: 4rem;
+  }
 }
 
 @media (min-width: 650px) {
@@ -613,6 +619,10 @@ body.page-template-page-bio, body.page-template-page-contact, body.single, body.
 @media (min-width: 750px) {
   .widget-home.widget-top-right img {
     top: 200px;
+  }
+  #home-page h3.widget-title {
+    padding: 100px 0 100px 10%;
+    font-size: 5rem;
   }
 }
 
@@ -655,6 +665,9 @@ body.page-template-page-bio, body.page-template-page-contact, body.single, body.
   }
   #site-nav {
     width: 700px;
+  }
+  #home-page h3.widget-title {
+    padding: 100px 0 100px 20%;
   }
 }
 
