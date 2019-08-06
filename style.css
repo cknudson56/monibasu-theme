@@ -367,12 +367,12 @@ input.wpcf7-form-control.wpcf7-submit:hover {
   display: flex;
   flex-wrap: wrap-reverse;
 }
-.left-contact-column {
-  display: flex;
-  align-items: flex-end;
+.widget-contact.widget-left {
+    position: relative;
 }
 .left-contact-column img {
-  margin-bottom: -3px;
+  position: absolute;
+  top: 37px;
 }
 .content-margin-contact {
   margin-bottom: 100px !important;
