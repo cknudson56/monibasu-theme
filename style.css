@@ -141,8 +141,6 @@ a.mega-menu-link {
 /* --- FOOTER --- */
 footer {
   background-color: #707070;
-  position: fixed;
-  bottom: 0;
   width: 100%;
 }
 footer h1, footer h2, footer h3, footer h4, footer h5, footer h6 {
