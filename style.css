@@ -235,7 +235,7 @@ div#shortcode-2 {
     margin-bottom: 300px;
     max-width: 500px;
 }
-#home-page h3.widget-title {
+#home-page.widget-top-left p {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   color: #FFFFFF;
