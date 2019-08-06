@@ -264,9 +264,22 @@ div#shortcode-2 {
   float: none !important;
   margin-top: 100px;
 }
-
-
-
+.row.home-banner2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+    margin-top: 50px;
+}
+.six.columns.social {
+    display: none;
+}
+.six.columns.recent-posts {
+    max-width: 450px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+}
 
 
 /* --- Bio Page --- */
@@ -570,6 +583,13 @@ body.page-template-page-bio, body.page-template-page-contact, body.single, body.
   }
   textarea#comment {
     max-width: 400px;
+  }
+  .six.columns.recent-posts {
+      padding-left: 0;
+  }
+  .six.columns.social {
+      display: flex;
+      justify-content: center;
   }
 }
 

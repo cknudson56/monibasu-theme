@@ -14,11 +14,11 @@
 </div>
 
 <div class="container">
-  <div class="row">
+  <div class="row home-banner2">
     <div class="six columns social">
       <?php dynamic_sidebar('main-social'); ?>
     </div>
-    <div class="six columns social">
+    <div class="six columns recent-posts">
       <?php dynamic_sidebar('recent-posts'); ?>
     </div>
   </div>
