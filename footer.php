@@ -17,8 +17,8 @@
     </div>
 
     <div class="row bottom-text">
-      <h4 class="pad-left"><a href="<?php echo bloginfo('url'); ?>"><?php echo bloginfo('name'); ?></a></h4>
-      <p class="pad-right">Site Created by Christie Knudson &amp; Nicole Gunter</p>
+      <h4 class="marg-left"><a href="<?php echo bloginfo('url'); ?>"><?php echo bloginfo('name'); ?></a></h4>
+      <p class="marg-right">Site Created by Christie Knudson &amp; Nicole Gunter</p>
     </div>
   </div>
 

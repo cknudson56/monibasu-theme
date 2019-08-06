@@ -92,6 +92,14 @@ button:hover, button:focus, button:active {
 .pad-right {
   padding-right: 5%;
 }
+.marg-left {
+  margin-left: 5%;
+}
+.marg-right {
+  margin-right: 5%;
+}
+
+
 
 
 /* --- HEADER ---*/
@@ -326,6 +334,7 @@ textarea.wpcf7-form-control.wpcf7-textarea {
 div.wpcf7 p {
   margin-bottom: 0 !important;
 }
+/* Not showing */
 input.wpcf7-form-control.wpcf7-submit {
     background-color: #D1D1D1 !important;
 }
