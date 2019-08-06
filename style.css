@@ -344,9 +344,9 @@ a.blogs-link {
     font-size: 2rem;
     margin-bottom: 0 !important;
 }
-img.image.wp-image-313.attachment-full.size-full {
-  margin-left: auto;
-  margin-right: auto;
+.widget-contact.widget-left {
+    display: flex;
+    justify-content: center;
 }
 .widget-contact.widget-right {
     padding-top: 20px;
