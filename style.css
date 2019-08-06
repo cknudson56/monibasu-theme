@@ -98,6 +98,9 @@ button:hover, button:focus, button:active {
 .marg-right {
   margin-right: 5%;
 }
+p.wp-caption-text {
+    display: none;
+}
 
 
 
@@ -340,6 +343,10 @@ a.blogs-link {
     list-style-type: disc;
     font-size: 2rem;
     margin-bottom: 0 !important;
+}
+img.image.wp-image-313.attachment-full.size-full {
+  margin-left: auto;
+  margin-right: auto;
 }
 .widget-contact.widget-right {
     padding-top: 20px;
