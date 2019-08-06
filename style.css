@@ -166,8 +166,9 @@ footer p {
 #menu-footer-menu li a {
   text-decoration: none;
   color: #FFFFFF;
-  position: relative;
-}
+  /*position: relative;*/
+  display: inline-block;
+}/*
 #menu-footer-menu li a:before {
   content: "";
   position: absolute;
@@ -186,12 +187,25 @@ footer p {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
-}
+}*/
 #menu-footer-menu li a:hover {
   color: #D1D1D1;
 }
 #menu-footer-menu ul {
   margin-bottom: 0 !important;
+}
+
+#menu-footer-menu li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width .3s;
+}
+
+#menu-footer-menu li a::after {
+    width: 100%;
 }
 /*Social Media Icons in Footer*/
 .sfsi_widget {
