@@ -291,6 +291,11 @@ div#shortcode-2 {
   width: 100%;
     max-width: 600px;
 }
+.rpwe-title a {
+    font-size: 1.6rem;
+}
+
+
 
 
 /* --- Bio Page --- */
