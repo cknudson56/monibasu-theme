@@ -497,6 +497,18 @@ textarea#comment {
   max-width: 300px;
 }
 
+
+
+/* --- Search & Archives --- */
+div#search-page, div#date-page, div#archives-page {
+  position: relative;
+}
+.search footer, .archive footer {
+  position: absolute;
+  bottom: 0;
+}
+
+
 /* --- 404 --- */
 .not-found h2 {
   text-align: left;
