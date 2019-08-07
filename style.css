@@ -502,7 +502,7 @@ textarea#comment {
 
 
 /* --- Background Imgs --- */
-body.page-template-page-bio, body.page-template-page-contact, body.single, body.page-template-default {
+body.home, body.page-template-page-bio, body.page-template-page-contact, body.single, body.page-template-default {
   background: url('images/moni-basu-logo-watermark.png') bottom right no-repeat;
   background-size: 290px;
 }
