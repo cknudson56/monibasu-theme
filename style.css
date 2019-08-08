@@ -501,7 +501,7 @@ textarea#comment {
 
 
 /* --- Search & Archives --- */
-.search footer, .date footer {
+.search footer, .date footer, .page-template-page-bio footer, .page-template-page-contact footer {
   position: fixed;
   bottom: 0;
 }
